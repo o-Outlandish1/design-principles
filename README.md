@@ -1,1 +1,3 @@
-#Design Principles ReadMe
+## Design Principles ReadMe
+## Contributors
+- Angel Rodriguez
