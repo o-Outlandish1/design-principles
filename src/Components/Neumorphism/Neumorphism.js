@@ -2,6 +2,29 @@ import React from 'react';
 import './index.css'
 
 const Neumorphism = () => {
+
+  const styles = {
+    neuContainer: {
+      width: '100vw',
+      height: '100vh',
+      backgroundColor: 'lightblue'
+    },
+    descriptionBox: {
+
+    },
+    h1: {
+
+    },
+    exampleBox: {
+      width: '300px',
+      height: '300px',
+      backgroundImage: 'url("https://assets.justinmind.com/wp-content/uploads/2020/04/what-is-neumorphism.png")'
+    },
+    glassButton: {
+      
+    }
+  }
+
   return (
     <div>
       <div className="neuContainer">
