@@ -1,6 +1,6 @@
 import React from "react";
 
-const Flayout = () => {
+const Zlayout = () => {
   const styles = {
     body: {
       backgroundColor: "black",
@@ -136,4 +136,4 @@ const Flayout = () => {
   );
 };
 
-export default Flayout;
+export default Zlayout;
