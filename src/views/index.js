@@ -4,6 +4,6 @@ export {default as GeneralPrinciples} from './GeneralPrinciples';
 export {default as Glassmorphism} from './Glassmorphism';
 export {default as GoldenRules} from './GoldenRules';
 export {default as MaterialUI} from './MaterialUI';
-export {default as Neumorphism} from './Neumorphism';
+export {default as Neumorphism} from './NeuView';
 export {default as SoftUI} from './SoftUI';
 export {default as ZPattern} from './ZPattern';

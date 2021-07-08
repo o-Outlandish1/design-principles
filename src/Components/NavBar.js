@@ -5,6 +5,7 @@ import {
   Switch,
   NavLink,
 } from "react-router-dom";
+
 import {
   FlatUI,
   FPattern,
@@ -15,7 +16,7 @@ import {
   Neumorphism,
   SoftUI,
   ZPattern,
-} from "../views/index";
+} from "../views";
 
 export default class NavBar extends React.Component {
   render() {
@@ -45,7 +46,7 @@ export default class NavBar extends React.Component {
                 <NavLink to="/soft-ui">Soft UI</NavLink>
               </li>
               <li>
-                <NavLink to="/neumorphism">Neumorphism</NavLink>
+                <NavLink to="/neuViews">Neumorphism</NavLink>
               </li>
               <li>
                 <NavLink to="/glassmorphism">Glassmorphism</NavLink>
@@ -59,48 +60,26 @@ export default class NavBar extends React.Component {
             </ul>
           </nav>
 
-          {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
           <Switch>
-            <Route path="/flat-ui" component={FlatUI}>
-              Flat UI
-            </Route>
+            <Route path="/flat-ui" component={FlatUI} />
 
-            <Route path="/general-principles" component={GeneralPrinciples}>
-              General UI Design Principles
-            </Route>
+            <Route path="/general-principles" component={GeneralPrinciples} />
 
-            <Route path="/golden-rule" component={GoldenRules}>
-              Golden Rule of Thirds
-            </Route>
+            <Route path="/golden-rule" component={GoldenRules} />
 
-            <Route path="/f-pattern" component={FPattern}>
-              F-Pattern
-            </Route>
+            <Route path="/f-pattern" component={FPattern} />
 
-            <Route path="/z-pattern" component={ZPattern}>
-              Z-Pattern
-            </Route>
+            <Route path="/z-pattern" component={ZPattern} />
 
-            <Route path="/soft-ui" component={SoftUI}>
-              Soft UI
-            </Route>
+            <Route path="/soft-ui" component={SoftUI} />
 
-            <Route path="/neumorphism" component={Neumorphism}>
-              Neumorphism
-            </Route>
+            <Route path="/neuViews" component={Neumorphism} />
 
-            <Route path="/glassmorphism" component={Glassmorphism}>
-              Glassmorphism
-            </Route>
+            <Route path="/glassmorphism" component={Glassmorphism} />
 
-            <Route path="/flat-ui" component={FlatUI}>
-              Flat UI
-            </Route>
+            <Route path="/flat-ui" component={FlatUI} />
 
-            <Route path="/material-ui" component={MaterialUI}>
-              Material UI
-            </Route>
+            <Route path="/material-ui" component={MaterialUI} />
           </Switch>
         </div>
       </Router>
