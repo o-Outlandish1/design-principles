@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Neumorphism from '../components/Neumorphism/Neumorphism'
+import Neumorphism from '../Components/Neumorphism/Neumorphism'
 
 export default class NeuView extends Component {
   render() {
