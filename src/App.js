@@ -1,19 +1,12 @@
-import './App.css';
-import NavBar from './components/NavBar';
-
-import Flayout from './Components/Flayout/Flayout';
+import "./App.css";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-      <Flayout />
-=======
-      <NavBar/>
->>>>>>> main
+      <NavBar />
     </div>
   );
 }
 
 export default App;
-
