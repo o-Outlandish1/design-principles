@@ -11,7 +11,7 @@
 .item {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-flow: column wrap;
     height: 100%;
     width: 100%;
@@ -23,11 +23,16 @@
     border: 0.5px solid #4A4949;
 }
 
+
 .item.a {
     grid-area: A;
     background-color: #eec747;
 }
 
+#header {
+    display: flex;
+    align-items: center;
+}
 
 .item.b {
     grid-area: B;
