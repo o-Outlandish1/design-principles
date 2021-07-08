@@ -1,4 +1,5 @@
-## Design Principles ReadMe
+## Design Principles
+
 ## Contributors
 - Angel Rodriguez
 - Akiko Green
@@ -20,3 +21,8 @@
 <h1>Glassmorphism<h1>
 
 <h3>Example<h3>
+
+
+## Additional Dependencies
+-[Nodemon](https://nodemon.io/)
+-[React Router](https://reactrouter.com/web/guides/quick-start)
