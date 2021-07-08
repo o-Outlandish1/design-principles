@@ -8,5 +8,8 @@
   border-radius: 25%;
   font-size: .75rem;
   text-align: center;
-
+    button {
+      width: 2rem;
+      height: 1rem;
+    }
 }
