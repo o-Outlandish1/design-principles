@@ -13,7 +13,6 @@ const Flayout = () => {
     },
     content: {
       display: "flex",
-      alignItems: "center",
       height: "30%",
       justifyContent: "space-between",
       marginLeft: "12rem",
@@ -29,7 +28,6 @@ const Flayout = () => {
       fontSize: "xx-large",
       height: "10rem",
       width: "10rem",
-      justifyContent: "center",
     },
     cta: {
       color: "white",
@@ -45,6 +43,7 @@ const Flayout = () => {
       width: "40%",
       backgroundColor: "gray",
       textAlign: "left",
+      fontWeight: "bold",
     },
     form: {
       display: "flex",
