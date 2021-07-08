@@ -4,7 +4,8 @@
   height: 100px;
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
+  align-items: center;
+
 }
 
 .navList {
@@ -13,8 +14,8 @@
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  /* margin: .25rem; */
-  padding: 0px;
+  padding:2rem;
+  margin: .25rem;
   width: 100%;
 
   }
