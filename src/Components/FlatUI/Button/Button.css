@@ -1,15 +1,16 @@
 .container{
-  display: inline;
+  display: inline-flex;
   font-size: 1rem;
   font-family: sans-serif;
 }
 .flatUiBtn{
+  /* display: inline-flex; */
   box-sizing: border;
-  border-radius: 25%;
-  font-size: .75rem;
+  border-radius: .55rem;
+  font-size: 1.25rem;
   text-align: center;
-    button {
-      width: 2rem;
-      height: 1rem;
+  padding: .5rem 1rem;
+  background-color: #315659;
+  color: #CAE0E2;
+  border: none;
     }
-}
