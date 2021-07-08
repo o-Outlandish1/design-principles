@@ -1,4 +1,5 @@
 import React from "react";
+import backpack from "./assets/backpack.png";
 
 const Zlayout = () => {
   const styles = {
@@ -59,6 +60,10 @@ const Zlayout = () => {
       cursor: "pointer",
       fontSize: "1.5rem",
     },
+    photo: {
+      height: "15rem",
+      width: "15rem",
+    },
   };
 
   return (
@@ -69,7 +74,7 @@ const Zlayout = () => {
           <p style={styles.title}>BEST BACKPACKS EVER!</p>
         </div>
         <div>
-          <p style={styles.image}>Backpack Image</p>
+          <img style={styles.photo} src={backpack} alt="backpack" />
         </div>
       </div>
       <div style={styles.cta}>
