@@ -12,3 +12,11 @@
 <h1>Z Layout Design<h1>
 
 <h3>Example<h3>
+
+<h1>Neumorphism<h1>
+
+<h3>Example<h3>
+
+<h1>Glassmorphism<h1>
+
+<h3>Example<h3>
