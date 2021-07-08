@@ -1,0 +1,12 @@
+.container{
+  display: inline;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+.flatUiBtn{
+  box-sizing: border;
+  border-radius: 25%;
+  font-size: .75rem;
+  text-align: center;
+
+}
