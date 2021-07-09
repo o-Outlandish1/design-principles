@@ -5,18 +5,22 @@ const Glassmorphism = () => {
 
   const styles = {
     div: {
-      backgroundColor: 'lightblue'
+      backgroundColor:' #4158D0',
+      backgroundImage: 'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'
+
     },
     glassContainer: {
       width: '100vw',
       height: '100vh',
-      backgroundColor: 'black'
+      backgroundColor:' #4158D0',
+      backgroundImage: 'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'
     },
     descriptionBox: {
 
     },
 
     h1: {
+      textAlign: 'center',
 
     },
     exampleBox: {
@@ -26,7 +30,7 @@ const Glassmorphism = () => {
   }
 	return (
 		<div style={styles.div}>
-      <h1>GLASSMORPHISM</h1>
+      <h1 style={styles.h1}>GLASSMORPHISM</h1>
 			<div className="glassContainer" style={styles.glassContainer}>
 				<div className="descriptionBox">
 					<div className="card" style={styles.card}>
