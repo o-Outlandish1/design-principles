@@ -8,6 +8,8 @@
 - Akiko Green
 - Andrew Spivey
 
+---
+
 <h1>F Layout Design<h1>
 <ul>
 <li>A "Fast Pattern" design.</li>
@@ -29,6 +31,9 @@
 <li>Bottom right would include a CTA; a form, big button, some user interaction.</li>
 </ul>
 <h3>Example<h3>
+![Z-layout example](https://storage.googleapis.com/website-production/uploads/2017/01/z-pattern-traffic-light-media.jpg)
+
+---
 
 <h1>Neumorphism<h1>
 
