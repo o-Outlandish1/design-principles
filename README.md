@@ -16,6 +16,9 @@
 <li>Lesser info is on the left edge, like an aside.</li>
 </ul>
 <h3>Example<h3>
+![F-layout heatmap](https://99designs-blog.imgix.net/blog/wp-content/uploads/2016/07/heatmap-eye-tracking.jpg?auto=format&q=60&fit=max&w=930)
+
+---
 
 <h1>Z Layout Design<h1>
 <ul>
