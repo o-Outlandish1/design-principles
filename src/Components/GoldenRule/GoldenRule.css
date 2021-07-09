@@ -2,19 +2,11 @@
     width: 100vw;
     height: 43.2632880099vw;
     border: 0.5px solid #4A4949;
-    display: grid;
-    grid-template-columns: 61.8% 9.02% 5.58% 23.6%;
-    grid-template-rows: 61.8% 9.02% 5.58% 23.6%;
-    grid-template-areas: "A B B B" "A E F C" "A E G C" "A D D C";
+    display: flex;
 }
 
 .item {
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
     flex-flow: column wrap;
-    height: 100%;
-    width: 100%;
     color: #F2F2F2;
     font-size: 1.5em;
     font-weight: 700;
@@ -23,52 +15,57 @@
     border: 0.5px solid #4A4949;
 }
 
-
 .item.a {
-    grid-area: A;
-    background-color: #eec747;
+    width: 59vw; 
+    background-image: url(https://static.bhphotovideo.com/explora/sites/default/files/styles/top_shot/public/TSruleofthird.jpg?itok=AlzBsCiY);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #header {
+    padding-top: 10rem;
     display: flex;
+    flex-flow: column wrap;
+    align-content: center;
     align-items: center;
 }
 
 .item.b {
-    grid-area: B;
+    display: flex;
+    justify-content: center;
     background-color: #eec747;
+    width: 41vw;
 }
 
+.golden-card-header {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    color: #eec747
+}
+
+.golden-crd-img {
+    display: flex;
+    justify-content: center;
+}
+
+.golden-card-header h4 {
+    margin-top: 0;
+}
+
+.golden-card-header h3 {
+    margin-bottom: 7px;
+}
+
+.golden-card {
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: column wrap;
+    width: 70%;
+    height: 75%
+}
 
 #fibonacci {
-    width: 350px;
-    border-radius: 40%;
-}
-
-.item.c {
-    grid-area: C;
-    background-color: #eec747;
-}
-
-.item.d {
-    grid-area: D;
-    background-color: #eec747;
-}
-
-.item.e {
-    grid-area: E;
-    font-size: 1.2em;
-    background-color: #eec747;
-}
-
-.item.f {
-    grid-area: F;
-    font-size: 1em;
-    background-color: #eec747;
-}
-
-.item.g {
-    grid-area: G;
-    font-size: 0.7em;
-    background-color: #eec747;
+    width: 300px;
 }
