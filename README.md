@@ -43,6 +43,25 @@
 
 <h3>Example<h3>
 
+<h1>Golden Rule of Thirds/Golden Ratio</h1>
+
+<ul>
+<li>Diving the window or picture into a grid with 9 equal parts, 3 X 3,
+and placing the objects of interest at the points of line intersection gives emphasis
+and better visual aesthetics.</li>
+<li>More pleasing to the eye and tells viewer's eye where to look/focus</li>
+<li>Creates space in view and is more interesting to look at then something right in middle of picture</li>
+<li>Golden Ratio is 1:1.618. Discovered by Fibonacci. Agreed upon widely as
+aesthetically pleasing to the eye when used.</li>
+<li>Golden ratio is seen often in nature. Shells, flowers, and many other objects
+in nature have the golden ratio structure.</li>
+</ul>
+
+<h3>Examples<h3>
+(https://expertphotography.com/wp-content/uploads/2019/02/golden-ratio-vs-rule-of-thirds-12.jpg)
+(https://alvalyn.com/wp-content/uploads/2019/06/golden-ratio-compared-alvalyn-lundgren.png)
+
+
 ## Additional Dependencies
 
 -[Nodemon](https://nodemon.io/) -[React Router](https://reactrouter.com/web/guides/quick-start)
