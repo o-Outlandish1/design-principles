@@ -38,6 +38,10 @@ const GeneralPrinciple = () => {
                     </div>
                     <div className={toggleButton === 2 ? "active-content" : "content"}>
                             <h1>Clear and Simple</h1>
+                            <p>Strive for clarity and purpose in your design and minimize actions/steps 
+                                the user needs to take. Each page should have a primary focus and give the 
+                                primary focus the most space on the page. 
+                            </p>
                             
                     </div>
                     <div className={toggleButton === 3 ? "active-content" : "content"}>
