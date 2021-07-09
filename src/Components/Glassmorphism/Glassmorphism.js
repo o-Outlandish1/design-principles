@@ -5,19 +5,19 @@ const Glassmorphism = () => {
 
   const styles = {
     div: {
-      backgroundColor: 'lightblue'
+      backgroundColor:' #4158D0',
+      backgroundImage: 'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'
+
     },
     glassContainer: {
       width: '100vw',
       height: '100vh',
-      backgroundColor: 'black'
+      backgroundColor:' #4158D0',
+      backgroundImage: 'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'
     },
-    descriptionBox: {
-
-    },
-
     h1: {
-
+      textAlign: 'center',
+      // paddingBottom: '12px'
     },
     exampleBox: {
       backgroundImage: 'url("https://i.pinimg.com/originals/75/54/06/755406708046e446afdda37ab494fc6d.png")'
@@ -26,7 +26,7 @@ const Glassmorphism = () => {
   }
 	return (
 		<div style={styles.div}>
-      <h1>GLASSMORPHISM</h1>
+      <h1 style={styles.h1}>GLASSMORPHISM</h1>
 			<div className="glassContainer" style={styles.glassContainer}>
 				<div className="descriptionBox">
 					<div className="card" style={styles.card}>
@@ -37,6 +37,7 @@ const Glassmorphism = () => {
               <h6 className="primary-text">Chonky Doge</h6>
               <h6 className="secondary-text">CEO of Doge Coin</h6>
             </div>
+            <button className="primary-text">View Doge</button>
             <div className="details">
               <div className="rating">
                 <h6 className="primary-text">100%</h6>
