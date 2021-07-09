@@ -10,43 +10,49 @@
 
 ---
 
-# F Layout Design
+# F Pattern Design
 
-<ul>
-<li>A "Fast Pattern" design.</li>
-<li>Reads left to right, and top to bottom.</li>
-<li>Important information is positioned at the top horizontal line.</li>
-<li>Lesser info is on the left edge, like an aside.</li>
-</ul>
+F Pattern, also known as "Fast Pattern" design, is a design that was the product of
+study by [Nielsen Norman Group](https://www.nngroup.com/reports/how-people-read-web-eyetracking-evidence/), who used eye tracking technology to recognize patterns of how users analyze and consume content.
 
-### Example
+When applying this pattern think, "scanners"; where do you expect a user will focus first.
 
-![F-layout heatmap](https://99designs-blog.imgix.net/blog/wp-content/uploads/2016/07/heatmap-eye-tracking.jpg?auto=format&q=60&fit=max&w=930)
+In an F Pattern, users read content in screen like a book; left to right and top to bottom. <br>
+Users first read in a horizontal movement across the upper part of a page. <br>
+Next, users move down and create a second horizontal line that usually cover a smaller area than the previous line. <br>
+Additional horizontal lines or eye sweeps move less and less to the right and the eye sticks closer to the left as it moves down.
+
+**_Example_**
+
+![F-pattern heatmap](https://99designs-blog.imgix.net/blog/wp-content/uploads/2016/07/heatmap-eye-tracking.jpg?auto=format&q=60&fit=max&w=930)
 
 ---
 
-# Z Layout Design
+# Z Pattern Design
 
-<ul>
-<li>Simplicity is priority. Minimalistic approach.</li>
-<li>Like F layout, Z also reads left to right, top to bottom.</li>
-<li>Top horizontal includes main components.</li>
-<li>Diagonal line includes bits of information.</li>
-<li>Bottom right would include a CTA; a form, big button, some user interaction.</li>
-</ul>
+Like F Pattern, a Z Pattern is also influenced by eye tracking technology. However, a Z Pattern prioritizes simplicity and focuses on a minimalistic approach.
 
-### Example
+Similar to an F Pattern, in a Z Pattern users read a page like a book; left to right and top to bottom. However, a Z Pattern prioritizes simplicity and focuses on a minimalistic approach.
+
+Important information and the main components you want users to see first are positioned
+at the top horizontal line. <br>
+The diagonal line should include bits of information that will build up your CTA(call to action). <br>
+The bottom horizontal line should highlight your CTA, a form, bit button, some form user interaction.
+
+**_Example_**
 
 ![Z-layout example](https://storage.googleapis.com/website-production/uploads/2017/01/z-pattern-traffic-light-media.jpg)
 
 ---
 
 # Neumorphism
+
 **Neu and Morphic: Neu: New + Morphic: a variant of Morphous, meaning having a specific shape or form. This word was also used in an old interface design trend called Skeumorphic.**
 
-Neumorphism, also known as soft UI, is a design style that is known for its use of light exposure. Meaning manipulating light on object like images to give a bright to contrasting shadow effect. 
+Neumorphism, also known as soft UI, is a design style that is known for its use of light exposure. Meaning manipulating light on object like images to give a bright to contrasting shadow effect.
 
 What gives Neumorphism such a popular gain of interest is that it draws from skeumorphism and other popular design styles like **Flat UI**.
+
 <hr>
 
 # Example
@@ -74,7 +80,6 @@ in nature have the golden ratio structure.</li>
 <h3>Examples<h3>
 (https://expertphotography.com/wp-content/uploads/2019/02/golden-ratio-vs-rule-of-thirds-12.jpg)
 (https://alvalyn.com/wp-content/uploads/2019/06/golden-ratio-compared-alvalyn-lundgren.png)
-
 
 ## Additional Dependencies
 
