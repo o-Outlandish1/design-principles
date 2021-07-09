@@ -41,9 +41,17 @@
 
 ---
 
-<h1>Neumorphism<h1>
+# Neumorphism
+**Neu and Morphic: Neu: New + Morphic: a variant of Morphous, meaning having a specific shape or form. This word was also used in an old interface design trend called Skeumorphic.**
 
-<h3>Example<h3>
+Neumorphism, also known as soft UI, is a design style that is known for its use of light exposure. Meaning manipulating light on object like images to give a bright to contrasting shadow effect. 
+
+What gives Neumorphism such a popular gain of interest is that it draws from skeumorphism and other popular design styles like **Flat UI**.
+<hr>
+
+# Example
+
+![neumrphism](https://assets.justinmind.com/wp-content/uploads/2020/04/what-is-neumorphism.png)
 
 <h1>Glassmorphism<h1>
 
