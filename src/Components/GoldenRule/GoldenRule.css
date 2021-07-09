@@ -31,10 +31,19 @@
     align-items: center;
 }
 
+#golden-card-text {
+    font-size: 14px;
+    margin-block-start: 0em;
+    margin-block-end: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+
 .item.b {
     display: flex;
     justify-content: center;
-    background-color: #eec747;
+    background-color: goldenrod;
     width: 41vw;
 }
 
@@ -62,8 +71,10 @@
     background-color: whitesmoke;
     display: flex;
     flex-flow: column wrap;
-    width: 70%;
-    height: 75%
+    width: 60%;
+    height: 80%;
+    border: 0.5px solid #4A4949;
+
 }
 
 #fibonacci {
