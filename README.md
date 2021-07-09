@@ -69,7 +69,7 @@ in nature have the golden ratio structure.
 
 # Examples
 ![Golden Ratio and Rule of thirds](https://expertphotography.com/wp-content/uploads/2019/02/golden-ratio-vs-rule-of-thirds-12.jpg)
-(https://alvalyn.com/wp-content/uploads/2019/06/golden-ratio-compared-alvalyn-lundgren.png)
+![Golden Ratio and Rule of thirds](https://alvalyn.com/wp-content/uploads/2019/06/golden-ratio-compared-alvalyn-lundgren.png)
 
 
 ## Additional Dependencies
