@@ -1,5 +1,7 @@
 ## Design Principles
 
+<hr/>
+
 ## Contributors
 
 - Angel Rodriguez
@@ -14,7 +16,7 @@
 <li>Lesser info is on the left edge, like an aside.</li>
 </ul>
 <h3>Example<h3>
-
+## ok
 <h1>Z Layout Design<h1>
 
 <h3>Example<h3>

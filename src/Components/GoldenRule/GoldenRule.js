@@ -4,7 +4,7 @@ import "./GoldenRule.css"
 const GoldenRule = () => {
 
     return (
-        <div class="container">
+        <div class="golden-container">
             <div id="header" class="item a">
                 <h1>GOLDEN RULE OF THIRDS</h1>
                 <h2>1 : 1.618</h2>
