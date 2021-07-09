@@ -8,17 +8,18 @@ import {
 
 import {
   FlatUI,
-  FPattern,
   GeneralPrinciples,
   Glassmorphism,
   GoldenRules,
   MaterialUI,
   Neumorphism,
   SoftUI,
-  ZPattern,
 } from "../../views";
 
-import './NavBar.css';
+import "./NavBar.css";
+
+import Flayout from "../Flayout/Flayout";
+import Zlayout from "../Zlayout/Zlayout";
 
 export default class NavBar extends React.Component {
   render() {
@@ -28,38 +29,38 @@ export default class NavBar extends React.Component {
           <nav className="nav">
             {/* <ul style={{ textDecoration: "none", listStyle: "none" }}> */}
             <ul className="navList">
-                <li>
-                  <NavLink to="/flat-ui">Flat UI</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/general-principles">
-                    General UI Design Principles
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/golden-rule">Golden Rule of Thirds</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/f-pattern">F-Pattern</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/z-pattern">Z-Pattern</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/soft-ui">Soft UI</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/neuViews">Neumorphism</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/glassmorphism">Glassmorphism</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/flat-ui">Flat UI</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/material-ui">Material UI</NavLink>
-                </li>
+              <li>
+                <NavLink to="/flat-ui">Flat UI</NavLink>
+              </li>
+              <li>
+                <NavLink to="/general-principles">
+                  General UI Design Principles
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/golden-rule">Golden Rule of Thirds</NavLink>
+              </li>
+              <li>
+                <NavLink to="/f-pattern">F-Layout</NavLink>
+              </li>
+              <li>
+                <NavLink to="/z-pattern">Z-Layout</NavLink>
+              </li>
+              <li>
+                <NavLink to="/soft-ui">Soft UI</NavLink>
+              </li>
+              <li>
+                <NavLink to="/neuViews">Neumorphism</NavLink>
+              </li>
+              <li>
+                <NavLink to="/glassmorphism">Glassmorphism</NavLink>
+              </li>
+              <li>
+                <NavLink to="/flat-ui">Flat UI</NavLink>
+              </li>
+              <li>
+                <NavLink to="/material-ui">Material UI</NavLink>
+              </li>
             </ul>
           </nav>
 
@@ -70,9 +71,9 @@ export default class NavBar extends React.Component {
 
             <Route path="/golden-rule" component={GoldenRules} />
 
-            <Route path="/f-pattern" component={FPattern} />
+            <Route path="/f-layout" component={Flayout} />
 
-            <Route path="/z-pattern" component={ZPattern} />
+            <Route path="/z-layout" component={Zlayout} />
 
             <Route path="/soft-ui" component={SoftUI} />
 
