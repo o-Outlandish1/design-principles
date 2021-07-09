@@ -41,10 +41,10 @@ export default class NavBar extends React.Component {
                 <NavLink to="/golden-rule">Golden Rule of Thirds</NavLink>
               </li>
               <li>
-                <NavLink to="/f-pattern">F-Layout</NavLink>
+                <NavLink to="/f-pattern">F-Pattern</NavLink>
               </li>
               <li>
-                <NavLink to="/z-pattern">Z-Layout</NavLink>
+                <NavLink to="/z-pattern">Z-Pattern</NavLink>
               </li>
               <li>
                 <NavLink to="/soft-ui">Soft UI</NavLink>
@@ -71,9 +71,9 @@ export default class NavBar extends React.Component {
 
             <Route path="/golden-rule" component={GoldenRules} />
 
-            <Route path="/f-layout" component={Flayout} />
+            <Route path="/f-pattern" component={Flayout} />
 
-            <Route path="/z-layout" component={Zlayout} />
+            <Route path="/z-pattern" component={Zlayout} />
 
             <Route path="/soft-ui" component={SoftUI} />
 
