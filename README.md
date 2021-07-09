@@ -1,4 +1,5 @@
 ## Design Principles
+<hr/>
 
 ## Contributors
 - Angel Rodriguez
