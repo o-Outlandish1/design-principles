@@ -15,13 +15,9 @@ const Glassmorphism = () => {
       backgroundColor:' #4158D0',
       backgroundImage: 'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'
     },
-    descriptionBox: {
-
-    },
-
     h1: {
       textAlign: 'center',
-
+      // paddingBottom: '12px'
     },
     exampleBox: {
       backgroundImage: 'url("https://i.pinimg.com/originals/75/54/06/755406708046e446afdda37ab494fc6d.png")'
