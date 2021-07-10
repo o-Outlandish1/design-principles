@@ -1,13 +1,11 @@
-### Design Principles
-
-<hr/>
+# Design Principles
 
 ## Contributors
 
 - Angel Rodriguez
 - Akiko Green
 - Andrew Spivey
-
+- Robyn Beck
 ---
 
 # F Pattern Design
@@ -59,9 +57,18 @@ What gives Neumorphism such a popular gain of interest is that it draws from ske
 
 ![neumrphism](https://assets.justinmind.com/wp-content/uploads/2020/04/what-is-neumorphism.png)
 
-<h1>Glassmorphism<h1>
+# Glassmorphism
+**Glassmorphism:** A light or dark surface, placed on top of colorful backgrounds. Colorful background are necessary for the effect to properly pop more, as the contrasting low-contrast colors will take away the transparency of the design , losing the effects of Glassmorphism.
 
-<h3>Example<h3>
+The main characteristics of a glassmorphism design are:
+- Transparency
+- Multi-layered approach with floating objects 
+- Vivid colors highlighting blurred transparency
+- Subtle ,light borders on translucent objects
+- Users can establish depth of the surface 
+
+# Example
+![Glassmorphism](https://miro.medium.com/max/1200/1*NzUy0je3bFL47qAOy8JY9Q.jpeg)
 
 # Golden Rule of Thirds/Golden Ratio
 Diving the window or picture into a grid with 9 equal parts, 3 X 3,
