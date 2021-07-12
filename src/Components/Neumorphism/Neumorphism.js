@@ -34,52 +34,10 @@ const Neumorphism = () => {
 			backgroundPosition : 'center',
 			backgroundSize     : 'cover'
 		},
-		neuButton      : {
-			background   : '#dde1e7',
-			width        : '10em',
-			height       : '10em',
-			// fontSize: '14px',
-			borderRadius : '20px',
-			boxShadow    : ' 6px 6px 6px #cbced1, -6px -6px 6px white',
-			border       : 'none',
-			color        : 'dark-grey',
-			margin       : '15px'
-		},
-		neuButton2     : {
-			background   : '#dde1e7',
-			width        : '10em',
-			height       : '10em',
-			// fontSize: '14px',
-			borderRadius : '20px',
-			boxShadow    : ' inset 6px 6px 6px #cbced1, inset -6px -6px 6px white',
-			border       : 'none',
-			color        : 'dark-grey'
-		},
-		neuButton3     : {
-			background   : '#dde1e7',
-			width        : '10em',
-			height       : '10em',
-			// fontSize: '14px',
-			borderRadius : '50px',
-			boxShadow    : '  6px 6px 6px #cbced1, -6px -6px 6px white',
-			border       : 'none',
-			color        : 'dark-grey',
-			margin       : '15px'
-		},
-		innerCircle    : {
-			height       : '50px',
-			width        : '50px',
-			marginLeft   : '30px',
-			borderRadius : '50px',
-			boxShadow    : ' inset 6px 6px 6px #cbced1, inset -6px -6px 6px white',
-			border       : 'none',
-			color        : 'dark-grey'
-		},
 		imageContainer : {
 			display        : 'flex',
-			justifyContent : 'center',
+			justifyContent : 'center'
 			// paddingTop     : '25px',
-
 		}
 	};
 
@@ -87,15 +45,13 @@ const Neumorphism = () => {
 		<div style={styles.div}>
 			<h1 style={styles.h1}>NEUMORPHISM</h1>
 			<div className="neuContainer" style={styles.neuContainer}>
-				<div className="descriptionBox" style={styles.descriptionBox}>
-					{/* <div className="buttonContainer"> */}
-						<button className="neuButton1" style={styles.neuButton}>
-							<div className="innerCircle" style={styles.innerCircle} />
-						</button>
-						{/* <button className="neuButton1" style={styles.neuButton2} /> */}
-						{/* <button className="neuButton1" style={styles.neuButton3} /> */}
-						{/* <button className="neuButton2"></button> */}
-					{/* </div> */}
+				<div className="descriptionBox" style={styles.descriptionBox} />
+				{/* login information here */}
+				<div className="login-div">
+					<div className="logo">
+            <div className="title">Web Development</div>
+            <div className="sub-title">Made Easy!</div>
+          </div>
 				</div>
 				<div className="imageContainer" style={styles.imageContainer}>
 					<div className="exampleBox" style={styles.exampleBox}>
