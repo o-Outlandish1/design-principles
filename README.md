@@ -10,7 +10,7 @@
 
 # F Pattern Design
 
-F Pattern, also known as "Fast Pattern" design, is a design that was the product of
+F Pattern, also known as "Fast Pattern" design, is a design that was the based on a by
 study by [Nielsen Norman Group](https://www.nngroup.com/reports/how-people-read-web-eyetracking-evidence/), who used eye tracking technology to recognize patterns of how users analyze and consume content.
 
 When applying this pattern think, "scanners"; where do you expect a user will focus first.
