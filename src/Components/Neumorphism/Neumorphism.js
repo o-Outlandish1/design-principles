@@ -48,10 +48,18 @@ const Neumorphism = () => {
 				<div className="descriptionBox" style={styles.descriptionBox} />
 				{/* login information here */}
 				<div className="login-div">
-					<div className="logo">
+					<div className="logo"></div>
             <div className="title">Web Development</div>
             <div className="sub-title">Made Easy!</div>
-          </div>
+           <div className="fields">
+             <div className="username">
+             <input type="username" className="user-input" placeholder="username"></input>
+             </div>
+             <div className="password">
+               <input type="password" className="pass-input" placeholder="password"></input>
+             </div>
+           </div>
+           <button className="signin-btn">Login</button>
 				</div>
 				<div className="imageContainer" style={styles.imageContainer}>
 					<div className="exampleBox" style={styles.exampleBox}>

@@ -6,3 +6,48 @@
   box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
 
 }
+
+.logo{
+  /* background: url("sdalksa"); */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: #ecf0f3 8px 8px 15px, 0px 0px 0px,
+  -8px -8px 15px #fff;
+}
+
+.title{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 24px;
+  letter-spacing: 0.5px;
+}
+
+.sub-title{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 7px;
+  letter-spacing: 3px;
+}
+
+.fields{
+  width: 100%;
+  padding: 75px 5px 5px 5px;
+}
+
+.fields input{
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding: 20px 10px 20px 5px;
+}
+
+.username, .password{
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+  
+}
