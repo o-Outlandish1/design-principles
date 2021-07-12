@@ -3,10 +3,9 @@
 
 .general-principles {
     width: 100vw;
-    height: 100vh;
     display: flex;
-    background-color: purple;
-    color: white
+    background-color: #DCE1E3;
+    color: black
 }
 
 .general-sidebar {
@@ -21,10 +20,10 @@
 
 .general-main {
     width: 70vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    padding-top: 30px
+    padding-top: 20px
 }
 
 .general-content {
@@ -38,6 +37,10 @@
     display: none;
 }
 
+#select-principle {
+    font-size: 3rem;
+}
+
 .active-content {
     display: "flex";
     justify-content: center;
@@ -46,11 +49,26 @@
 .active-content h1 {
     display: flex;
     justify-content: center;
+    font-size: 3rem;
+    margin-top: 20px;
+    color: #004E7C
+}
+
+#page-title {
+    text-decoration: underline;
+    font-size: 4em;
+    color: #004E7C;
+}
+
+.active-content h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
 }
 
 .active-content p {
-    margin: 50px 100px 5px 100px;
-    font-size: 20px;
+    margin: 25px 100px 25px 100px;
+    font-size: 25px;
 }
 
 .general-btns {
@@ -59,7 +77,8 @@
     height: 70px;
     align-items: center;
     font-size: 30px;
-    color: purple;
+    background-color: #004E7C;
+    color: white;
     cursor: pointer;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
