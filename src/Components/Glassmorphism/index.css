@@ -72,7 +72,7 @@
 .details>div:first-child{
   border-right: 2px solid rgba(255,255,255,0.08);
 }
-button{
+.view-doge-btn{
   background-color: rgba(255,255,255,0.06);
   backdrop-filter: blur(20px);
   position: absolute;

@@ -37,7 +37,7 @@ const Glassmorphism = () => {
               <h6 className="primary-text">Chonky Doge</h6>
               <h6 className="secondary-text">CEO of Doge Coin</h6>
             </div>
-            <button className="primary-text">View Doge</button>
+            <button className="primary-text view-doge-btn">View Doge</button>
             <div className="details">
               <div className="rating">
                 <h6 className="primary-text">100%</h6>
