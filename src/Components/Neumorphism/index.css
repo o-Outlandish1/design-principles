@@ -4,13 +4,14 @@
   padding: 6px 35px 35px 35px;
   background-color: #dde1e7;
   box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
-
 }
 
 .logo{
-  /* background: url("sdalksa"); */
-  width: 100px;
-  height: 100px;
+  background: url("https://img.wattpad.com/cover/148493833-288-k395634.jpg");
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   margin: 0 auto;
   box-shadow: #ecf0f3 8px 8px 15px, 0px 0px 0px,
@@ -49,5 +50,42 @@
   margin-bottom: 30px;
   border-radius: 25px;
   box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
-  
+
+}
+
+.signinButton{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: inherit;
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  text-align: center;
+  background-color: #02c8db;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+  transition: all 0.5s;
+}
+
+.signinButton:hover{
+  background-color: #50e5b9;
+}
+
+.signinButton:active{
+  background-color: #88ef9e;
+}
+
+.link{
+  padding-top: 20px;
+  text-align: center;
+
+}
+.link a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
 }
