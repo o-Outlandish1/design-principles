@@ -7,18 +7,24 @@ const Glassmorphism = () => {
   const styles = {
     div: {
       backgroundColor:' #4158D0',
-      backgroundImage: 'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'
+      // backgroundImage: 'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'
+      backgroundImage: 'url("https://cdn5.vectorstock.com/i/1000x1000/17/69/space-galaxy-background-with-stars-vector-33411769.jpg")',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize:'cover'
 
     },
     glassContainer: {
       width: '100vw',
       height: '100vh',
       backgroundColor:' #4158D0',
-      backgroundImage: 'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'
+      // backgroundImage: 'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'
+      backgroundImage: 'url("https://cdn5.vectorstock.com/i/1000x1000/17/69/space-galaxy-background-with-stars-vector-33411769.jpg")',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize:'cover'
     },
     h1: {
       textAlign: 'center',
-      // paddingBottom: '12px'
+      color: 'white',
     },
     exampleBox: {
       backgroundImage: 'url("https://i.pinimg.com/originals/75/54/06/755406708046e446afdda37ab494fc6d.png")'
