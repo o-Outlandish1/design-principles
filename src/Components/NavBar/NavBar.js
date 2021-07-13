@@ -24,13 +24,9 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <Router>
-        <div className="container">
-          <nav className="nav">
-            {/* <ul style={{ textDecoration: "none", listStyle: "none" }}> */}
-            <ul className="navList">
-                <li>
-                  <NavLink to="/flat-ui">Flat UI</NavLink>
-                </li>
+        <div className="navbar-container">
+          <nav className="navbar">
+            <ul className="nav-list">
                 <li>
                   <NavLink to="/general-principles">
                     General UI Design Principles
