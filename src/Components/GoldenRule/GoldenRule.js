@@ -7,7 +7,15 @@ const GoldenRule = () => {
         <div class="golden-container">
             <div id="header" class="item a">
                 <h1>GOLDEN RULE OF THIRDS</h1>
+                <div class="thirds-p">
+                <p>When the screen, picture, or component is split into 9 equal parts
+                    using a 3 x 3 grid, placing objects of importance at the points of line intersection
+                    naturally puts emphasis on the object, is more aesthetically pleasing,
+                    and will naturally attract the human eye to the object or text.
+                </p>
             </div>
+
+                </div>
             <div class="item b">
                 <div className="golden-card">
                     <div className="golden-card-header">

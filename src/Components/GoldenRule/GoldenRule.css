@@ -24,11 +24,15 @@
 }
 
 #header {
-    padding-top: 10rem;
+    padding-top: 9rem;
     display: flex;
-    flex-flow: column wrap;
     align-content: center;
     align-items: center;
+}
+
+.thirds-p {
+    position: fixed;
+    padding: 175px 50px;
 }
 
 #golden-card-text {
