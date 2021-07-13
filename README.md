@@ -84,6 +84,12 @@ in nature have the golden ratio structure.
 ![Golden Ratio and Rule of thirds](https://expertphotography.com/wp-content/uploads/2019/02/golden-ratio-vs-rule-of-thirds-12.jpg)
 ![Golden Ratio and Rule of thirds](https://alvalyn.com/wp-content/uploads/2019/06/golden-ratio-compared-alvalyn-lundgren.png)
 
+
+# Soft UI
+
+# Example
+
+
 # General UI Principles
 General UI principles and concepts mainly boil down to making life easy for the user. There are many ways to do accomplish this, here are some of the primary ways to do so:
 Be as clear and simple in your design as possible to avoid confusing the user.
@@ -93,6 +99,58 @@ Create a visual hierarchy. This can help the user find what is important, what t
 Have a step-by-step information flow, with the focus on what is currently important to them. Only include information that is relevant to their decisions right now.
 ![General UI](https://www.researchgate.net/profile/Raul-Valverde-3/publication/280689716/figure/tbl2/AS:669391049994258@1536606671662/Mayhews-General-Principles-of-User-Interface-Design-Huang-1997.png)
 
+
 ## Additional Dependencies
 
 -[Nodemon](https://nodemon.io/) -[React Router](https://reactrouter.com/web/guides/quick-start)
+<hr />
+
+# Resources
+
+### **F Layout**:
+- https://webdesign.tutsplus.com/articles/understanding-the-f-layout-in-web-design--webdesign-687
+- https://instapage.com/blog/f-pattern-layout
+- https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394
+
+### **Z Layout**:
+- https://instapage.com/blog/z-pattern-layout
+- https://en.wikipedia.org/wiki/Z_scale
+- https://webdesign.tutsplus.com/articles/understanding-the-z-layout-in-web-design--webdesign-28
+
+### **Neumomorphism**
+- https://en.everybodywiki.com/Neumorphism
+- https://www.justinmind.com/blog/neumorphism-ui/
+- https://css-tricks.com/neumorphism-and-css/
+- https://opengeekslab.medium.com/neumorphism-the-next-big-thing-in-ui-design-11e703df3ab0
+
+### **Glassmorphism**
+- https://uxdesign.cc/glassmorphism-in-user-interfaces-1f39bb1308c9
+- https://www.codinglabweb.com/2021/01/responsive-website-with-html-css-glass.html
+- https://youtu.be/GLHut0BM9nc
+- https://www.youtube.com/watch?v=uRVnX0k593E
+- https://dribbble.com/tags/glassmorphism (example designs)
+
+### **Soft UI**
+- https://youtu.be/tAs59fxBDSU
+- https://youtu.be/H4cwatymnLo
+- https://dev.to/wingleung/neumorphism-soft-ui-sass-mixin-1cn5
+- https://shabier.medium.com/design-trends-neumorphism-59a9ba9d9284
+- https://shabier.medium.com/design-trends-neumorphic-design-part-2-8e34868483b
+
+### **Flat UI**
+- https://handwiki.org/wiki/Flat_design
+- https://medium.com/@ux_hai/flat-2-0-why-fully-flat-design-is-outdated-95fb5609f729
+- https://medium.com/@codeit_llc/flat-design-vs-material-design-e09167407bb6
+
+### **Material UI**
+- https://en.wikipedia.org/wiki/Material_Design
+- https://www.interaction-design.org/literature/topics/material-design
+- https://uxdesign.cc/material-design-with-reactjs-using-material-ui-9f7e81a955f7
+
+
+
+### **Golden Rule of Thirds**:
+- https://www.interaction-design.org/literature/article/the-rule-of-thirds-know-your-layout-sweet-spots
+- https://medium.com/publishous/composition-the-rule-of-thirds-and-the-golden-ratio-d587da486d26
+- https://medium.com/@cherinow/golden-spiral-rule-of-thirds-in-art-and-photography-bf4285dff59a
+
