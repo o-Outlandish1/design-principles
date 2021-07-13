@@ -84,6 +84,15 @@ in nature have the golden ratio structure.
 ![Golden Ratio and Rule of thirds](https://expertphotography.com/wp-content/uploads/2019/02/golden-ratio-vs-rule-of-thirds-12.jpg)
 ![Golden Ratio and Rule of thirds](https://alvalyn.com/wp-content/uploads/2019/06/golden-ratio-compared-alvalyn-lundgren.png)
 
+# General UI Principles
+General UI principles and concepts mainly boil down to making life easy for the user. There are many ways to do accomplish this, here are some of the primary ways to do so:
+Be as clear and simple in your design as possible to avoid confusing the user.
+Consistency in design allows the user to recognize and accomplish tasks faster/easier.
+Be friendly/forgiving to the user, anticipate errors they may make and give them the opportunity to confirm or correct their decisions to avoid misunderstandings.
+Create a visual hierarchy. This can help the user find what is important, what they are looking for more easily, and direct them visually through their actions/steps.
+Have a step-by-step information flow, with the focus on what is currently important to them. Only include information that is relevant to their decisions right now.
+![General UI](https://www.researchgate.net/profile/Raul-Valverde-3/publication/280689716/figure/tbl2/AS:669391049994258@1536606671662/Mayhews-General-Principles-of-User-Interface-Design-Huang-1997.png)
+
 ## Additional Dependencies
 
 -[Nodemon](https://nodemon.io/) -[React Router](https://reactrouter.com/web/guides/quick-start)

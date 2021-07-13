@@ -25,41 +25,38 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <Router>
-        <div className="nav-container">
-          <nav className="nav">
-            <ul className="navList">
-              <li>
-                <NavLink to="/flat-ui">Flat UI</NavLink>
-              </li >
-              <li>
-                <NavLink to="/general-principles">
-                  General UI Design Principles
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/golden-rule">Golden Rule of Thirds</NavLink>
-              </li>
-              <li>
-                <NavLink to="/f-pattern">F-Pattern</NavLink>
-              </li>
-              <li>
-                <NavLink to="/z-pattern">Z-Pattern</NavLink>
-              </li>
-              <li>
-                <NavLink to="/soft-ui">Soft UI</NavLink>
-              </li>
-              <li>
-                <NavLink to="/neuViews">Neumorphism</NavLink>
-              </li>
-              <li>
-                <NavLink to="/glassmorphism">Glassmorphism</NavLink>
-              </li>
-              <li>
-                <NavLink to="/flat-ui">Flat UI</NavLink>
-              </li>
-              <li>
-                <NavLink to="/material-ui">Material UI</NavLink>
-              </li>
+        <div className="navbar-container">
+          <nav className="navbar">
+            <ul className="nav-list">
+                <li>
+                  <NavLink to="/general-principles">
+                    General UI Design Principles
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/golden-rule">Golden Rule of Thirds</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/f-pattern">F-Pattern</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/z-pattern">Z-Pattern</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/soft-ui">Soft UI</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/neuViews">Neumorphism</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/glassmorphism">Glassmorphism</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/flat-ui">Flat UI</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/material-ui">Material UI</NavLink>
+                </li>
             </ul>
           </nav>
 

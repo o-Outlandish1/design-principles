@@ -1,0 +1,30 @@
+.navbar-container{
+  height: 100%;
+  margin: auto;
+}
+.navbar{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.nav-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding:2rem;
+  margin: 3rem;
+  width: 100%;
+
+  }
+
+
+a{
+  text-decoration: none;
+}
+
