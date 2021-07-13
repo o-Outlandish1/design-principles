@@ -8,17 +8,18 @@ import {
 
 import {
   FlatUI,
-  FPattern,
   GeneralPrinciples,
   Glassmorphism,
   GoldenRules,
   MaterialUI,
   Neumorphism,
   SoftUI,
-  ZPattern,
 } from "../../views";
 
-import './NavBar.css';
+import "./NavBar.css";
+
+import Flayout from "../Flayout/Flayout";
+import Zlayout from "../Zlayout/Zlayout";
 
 export default class NavBar extends React.Component {
   render() {
@@ -66,9 +67,9 @@ export default class NavBar extends React.Component {
 
             <Route path="/golden-rule" component={GoldenRules} />
 
-            <Route path="/f-pattern" component={FPattern} />
+            <Route path="/f-pattern" component={Flayout} />
 
-            <Route path="/z-pattern" component={ZPattern} />
+            <Route path="/z-pattern" component={Zlayout} />
 
             <Route path="/soft-ui" component={SoftUI} />
 
