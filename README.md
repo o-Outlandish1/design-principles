@@ -51,8 +51,7 @@ Neumorphism, also known as soft UI, is a design style that is known for its use 
 
 What gives Neumorphism such a popular gain of interest is that it draws from skeumorphism and other popular design styles like **Flat UI**.
 
-<hr>
-
+---
 # Example
 
 ![neumrphism](https://assets.justinmind.com/wp-content/uploads/2020/04/what-is-neumorphism.png)
@@ -67,6 +66,7 @@ The main characteristics of a glassmorphism design are:
 - Subtle ,light borders on translucent objects
 - Users can establish depth of the surface 
 
+---
 # Example
 ![Glassmorphism](https://miro.medium.com/max/1200/1*NzUy0je3bFL47qAOy8JY9Q.jpeg)
 
@@ -79,15 +79,10 @@ When you divide a line into two parts and the longer part (a) divided by the sma
 The Golden ratio is seen often in nature. Shells, flowers, and many other objects
 in nature have the golden ratio structure.
 
-
+---
 # Examples
 ![Golden Ratio and Rule of thirds](https://expertphotography.com/wp-content/uploads/2019/02/golden-ratio-vs-rule-of-thirds-12.jpg)
 ![Golden Ratio and Rule of thirds](https://alvalyn.com/wp-content/uploads/2019/06/golden-ratio-compared-alvalyn-lundgren.png)
-
-
-# Soft UI
-
-# Example
 
 
 # General UI Principles
@@ -98,14 +93,11 @@ Be friendly/forgiving to the user, anticipate errors they may make and give them
 Create a visual hierarchy. This can help the user find what is important, what they are looking for more easily, and direct them visually through their actions/steps.
 Have a step-by-step information flow, with the focus on what is currently important to them. Only include information that is relevant to their decisions right now.
 
+---
 # Example 
 ![General UI](https://www.researchgate.net/profile/Raul-Valverde-3/publication/280689716/figure/tbl2/AS:669391049994258@1536606671662/Mayhews-General-Principles-of-User-Interface-Design-Huang-1997.png)
 
 
-## Additional Dependencies
-
--[Nodemon](https://nodemon.io/) -[React Router](https://reactrouter.com/web/guides/quick-start)
-<hr />
 
 # Resources
 
@@ -155,4 +147,10 @@ Have a step-by-step information flow, with the focus on what is currently import
 - https://www.interaction-design.org/literature/article/the-rule-of-thirds-know-your-layout-sweet-spots
 - https://medium.com/publishous/composition-the-rule-of-thirds-and-the-golden-ratio-d587da486d26
 - https://medium.com/@cherinow/golden-spiral-rule-of-thirds-in-art-and-photography-bf4285dff59a
+
+
+# Additional Dependencies
+
+-[Nodemon](https://nodemon.io/) -[React Router](https://reactrouter.com/web/guides/quick-start)
+<hr />
 
