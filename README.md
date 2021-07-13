@@ -86,16 +86,33 @@ in nature have the golden ratio structure.
 
 
 # General UI Principles
-**General UI principles** and concepts mainly boil down to making life easy for the user. There are many ways to do accomplish this, here are some of the primary ways to do so:
+
+General UI principles and concepts mainly boil down to making life easy for the user. There are many ways to do accomplish this, here are some of the primary ways to do so:
+
+Use color to reflect the overall theme/brand/personality of the content. Don't exaggerate the branding presence 
+by using too much of the primary color like for the background color of the page. This can distract the user
+from their actions and make contrast, hierarchy more complicated.
+
+Balance the colors used in a 60% primary, 30% secondary, and 10% tertiary. There are tools to contain these ratios that
+help and can also be used for the ratio of sizes of the typography, which can use the same ratio between headers, subheaders, body content, action elements, captions etc.
+
+Having a good visual hierarchy by presenting the content in a way that users can easily comprehend 
+the importance of each element. Organizing the components so the brain can distinguish the 
+objects based on their size, color, contrast and style.
+
+the proximity of elements on screen and negative or white space can help the user group content more easily and thus
+categorize them.
+
+General UI concepts mainly boil down to making life easy for the user. There are many ways to do accomplish this, here are some of the primary ways to do so:
+
 Be as clear and simple in your design as possible to avoid confusing the user.
 Consistency in design allows the user to recognize and accomplish tasks faster/easier.
 Be friendly/forgiving to the user, anticipate errors they may make and give them the opportunity to confirm or correct their decisions to avoid misunderstandings.
 Create a visual hierarchy. This can help the user find what is important, what they are looking for more easily, and direct them visually through their actions/steps.
 Have a step-by-step information flow, with the focus on what is currently important to them. Only include information that is relevant to their decisions right now.
 
----
-# Example 
-![General UI](https://www.researchgate.net/profile/Raul-Valverde-3/publication/280689716/figure/tbl2/AS:669391049994258@1536606671662/Mayhews-General-Principles-of-User-Interface-Design-Huang-1997.png)
+![General UI](https://assets.justinmind.com/wp-content/uploads/2019/09/visual-hierarchy-z-reading-pattern.png)
+
 
 
 
