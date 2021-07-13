@@ -13,7 +13,8 @@ const Neumorphism = () => {
       backgroundColor: '#dde1e7'
     },
     h1: {
-      textAlign: 'center'
+      textAlign: 'center',
+      margin: '0'
     },
     exampleBox: {
       width: '50vw',
