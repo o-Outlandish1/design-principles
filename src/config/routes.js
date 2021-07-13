@@ -1,13 +1,13 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-// import FlatUI from '../components/FlatUI/Button/Button';
-import GeneralPrinciples from '../components/GeneralPrinciples/GeneralPrinciple';
-import GoldenRules from '../components/GoldenRule/GoldenRule';
-import Flayout from "../components/Flayout/Flayout";
-import Zlayout from "../components/Zlayout/Zlayout";
-import Neumorphism from '../components/Neumorphism/Neumorphism';
-import Glassmorphism from '../components/Glassmorphism/Glassmorphism';
+// import FlatUI from '../Components/FlatUI/Button/Button';
+import GeneralPrinciples from '../Components/GeneralPrinciples/GeneralPrinciple';
+import GoldenRules from '../Components/GoldenRule/GoldenRule';
+import Flayout from "../Components/Flayout/Flayout";
+import Zlayout from "../Components/Zlayout/Zlayout";
+import Neumorphism from '../Components/Neumorphism/Neumorphism';
+import Glassmorphism from '../Components/Glassmorphism/Glassmorphism';
 // import your component here
 
 export default (
