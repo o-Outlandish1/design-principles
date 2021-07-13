@@ -5,7 +5,7 @@ const Zlayout = () => {
   const styles = {
     body: {
       backgroundColor: "black",
-      height: "100vh",
+      height: "100%",
     },
     nav: {
       color: "white",
