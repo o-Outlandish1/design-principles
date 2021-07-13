@@ -1,6 +1,6 @@
 .golden-container {
     width: 100vw;
-    height: 43.2632880099vw;
+    height: 80vh;
     border: 0.5px solid #4A4949;
     display: flex;
 }
@@ -71,12 +71,12 @@
     background-color: whitesmoke;
     display: flex;
     flex-flow: column wrap;
-    width: 60%;
-    height: 80%;
+    width: 70%;
+    height: 30rem;
     border: 0.5px solid #4A4949;
 
 }
 
 #fibonacci {
-    width: 300px;
+    max-width: 250px;
 }
