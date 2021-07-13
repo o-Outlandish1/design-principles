@@ -51,6 +51,17 @@ Neumorphism, also known as soft UI, is a design style that is known for its use 
 
 What gives Neumorphism such a popular gain of interest is that it draws from skeumorphism and other popular design styles like **Flat UI**.
 
+**Pros:**
+- Simpler and more manageable, while supporting the impulse to press the buttons. 
+- Has some restrictions like skeumorphism whereas it is not as flexible unlike flat design.
+- When designing it gives off the feeling of recreating reality.
+
+**Cons:**
+- Limited to less variable styles,, more complex and not suited for everything.
+- Have to be creative with color usage,
+- Button colors and similar shadow- or gradient colors do not always support clickable elements’  3D appearance.
+
+
 ---
 # Example
 
