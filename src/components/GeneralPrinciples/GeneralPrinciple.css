@@ -5,7 +5,8 @@
     width: 100vw;
     display: flex;
     background-color: #DCE1E3;
-    color: black
+    color: black;
+    font-family: Roboto;
 }
 
 .general-sidebar {
@@ -80,5 +81,5 @@
     background-color: #004E7C;
     color: white;
     cursor: pointer;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Roboto;
 }
