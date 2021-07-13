@@ -1,0 +1,14 @@
+.nav-container {
+  background-color: black;
+  display: flex;
+  height: 3rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ui-link {
+  text-decoration: none!important;
+  color: white;
+}
+
+.ui-link:hover {color: orange;}
