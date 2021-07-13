@@ -1,4 +1,6 @@
 import React from "react";
+import './NavBar.css';
+
 import {
   BrowserRouter as Router,
   Route,
@@ -16,8 +18,6 @@ import {
   SoftUI,
 } from "../../views";
 
-import "./NavBar.css";
-
 import Flayout from "../Flayout/Flayout";
 import Zlayout from "../Zlayout/Zlayout";
 
@@ -25,13 +25,12 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <Router>
-        <div className="container">
+        <div className="nav-container">
           <nav className="nav">
-            {/* <ul style={{ textDecoration: "none", listStyle: "none" }}> */}
             <ul className="navList">
               <li>
                 <NavLink to="/flat-ui">Flat UI</NavLink>
-              </li>
+              </li >
               <li>
                 <NavLink to="/general-principles">
                   General UI Design Principles

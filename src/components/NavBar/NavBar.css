@@ -1,0 +1,12 @@
+
+.nav {
+  position: sticky;
+  top: 0;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+  }
