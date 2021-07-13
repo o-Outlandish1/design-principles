@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-// import FlatUI from '../components/FlatUI/Button/Button';
+// import FlatUI from '../Components/FlatUI/Button/Button';
 import GeneralPrinciples from '../components/GeneralPrinciples/GeneralPrinciple';
 import GoldenRules from '../components/GoldenRule/GoldenRule';
 import Flayout from "../components/Flayout/Flayout";
