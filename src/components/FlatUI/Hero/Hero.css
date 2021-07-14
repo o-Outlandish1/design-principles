@@ -1,0 +1,26 @@
+.hero-text{
+  /* margin: 16rem; */
+  height: 90vh;
+  width: 60%;
+  background-color: var(--secondary-color);
+  font-size: 3rem;
+  text-align: center;
+  color: var(--accent-color2);
+}
+
+.this{
+  font-size: 9rem;
+  margin: 6rem 21rem 0 0;
+}
+
+.is{
+  font-size: 6rem;
+  margin: 0 18rem 0 0;
+}
+
+.flatUi{
+  font-size: 12rem;
+  margin: 1rem -1rem 0 -16px;
+  float: right;
+  color: var(--accent-color1);
+}
