@@ -1,17 +1,23 @@
+<<<<<<< HEAD
+=======
 /* .container{
    display: flex; 
   font-size: 1rem;
   font-family: sans-serif;
 } */
+>>>>>>> ed8bdd194a7b3cc9b4374a3a39c5281bc6f6715b
 
 .flatUiBtn{
   /* display: inline-flex; */
-  box-sizing: border;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* justify-content: flex-end; */
   border-radius: .55rem;
-  font-size: 1.25rem;
+  font-family: sans-serif;
+  font-size: 1rem;
   text-align: center;
   padding: .5rem 1rem;
-  background-color: #315659;
+  background-color: var(--secondary-color);
   color: #CAE0E2;
   border: none;
     }

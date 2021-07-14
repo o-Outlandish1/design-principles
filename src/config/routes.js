@@ -8,7 +8,7 @@ import Flayout from "../components/Flayout/Flayout";
 import Zlayout from "../components/Zlayout/Zlayout";
 import Neumorphism from '../components/Neumorphism/Neumorphism';
 import Glassmorphism from '../components/Glassmorphism/Glassmorphism';
-// import your component here
+import {FlatUI} from '../views/index';
 
 export default (
   <Switch>
@@ -18,7 +18,7 @@ export default (
     <Route path="/z-pattern" component={ Zlayout } />
     <Route path="/neumorphism" component={ Neumorphism } />
     <Route path="/glassmorphism" component={ Glassmorphism } />
-    {/* <Route path="/flat-ui" component={FlatUI} />
-      <Route path="/material-ui" component={ MaterialUI } /> */}
+    <Route path="/flat-ui" component={FlatUI} />
+      {/* <Route path="/material-ui" component={ MaterialUI } /> */}
   </Switch>
 );

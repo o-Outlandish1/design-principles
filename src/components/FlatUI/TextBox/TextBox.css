@@ -1,0 +1,36 @@
+  .textbox-container {
+    background-color: var(--primary-color);
+    color: var(--black);
+    width: 40%;
+    min-height: 90vh;
+    position: relative;
+  }
+
+.blurb1-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+
+}
+
+.header-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(25%, -45%);
+}
+
+.header-span{
+  margin-bottom: 3.75rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.blurb{
+  margin-bottom: 2.75rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+
