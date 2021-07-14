@@ -1,0 +1,42 @@
+.popup {
+    width: 50em;
+    height: 30em;
+    background-color: antiquewhite;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    flex-flow: column wrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.popup-img img {
+    width: 100%;
+    height: 100%;
+    
+    border-bottom: solid black;
+}
+
+.popup-img {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.popup-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.popup h2 {
+    margin: 0;
+    padding: 5px 0 0 0;
+}
