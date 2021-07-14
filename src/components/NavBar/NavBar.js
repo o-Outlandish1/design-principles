@@ -13,6 +13,8 @@ const NavBar = () => {
       <Link className='ui-link' to={'/glassmorphism'}>Glassmorphism</Link>
       <Link className='ui-link' to={'/flat-ui'}>Flat UI</Link>
       <Link className='ui-link' to={'/material'}>Material UI</Link>
+
+      <Link className="ui-link" to={'/carousel'}>Carousel</Link>
     </div>
   );
 }
