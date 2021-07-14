@@ -1,0 +1,22 @@
+.carousel-container{
+  width: 100vw;
+  height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-color: lightblue;
+
+}
+
+.carousel{
+  width: 60%;
+  height: 500px;
+  background-color: whitesmoke;
+}
+
+.carouselInner{
+  height: 100%;
+  width: 100%;
+  
+}
