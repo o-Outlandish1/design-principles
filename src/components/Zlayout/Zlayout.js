@@ -6,6 +6,7 @@ const Zlayout = () => {
     body: {
       backgroundColor: "black",
       height: "100%",
+      paddingBottom: '1rem'
     },
     nav: {
       color: "white",
@@ -34,14 +35,14 @@ const Zlayout = () => {
       color: "white",
       display: "flex",
       justifyContent: "space-between",
-      marginTop: "5rem",
+      marginTop: "3rem",
       marginLeft: "12rem",
       marginRight: "12rem",
     },
     aside: {
       color: "white",
       fontSize: "large",
-      width: "40%",
+      width: "60%",
       backgroundColor: "gray",
       textAlign: "left",
       fontWeight: "bold",
@@ -68,7 +69,7 @@ const Zlayout = () => {
 
   return (
     <div style={styles.body}>
-      <h2 style={styles.nav}>Backpack Company</h2>
+      <h2 style={styles.nav}>[Company Logo]</h2>
       <div style={styles.content}>
         <div>
           <p style={styles.title}>BEST BACKPACKS EVER!</p>
