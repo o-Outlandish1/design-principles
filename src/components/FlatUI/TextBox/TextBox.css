@@ -1,36 +1,55 @@
   .textbox-container {
-    background-color: var(--primary-color);
-    color: var(--black);
-    width: 40%;
-    min-height: 90vh;
+    height: 100%;
     position: relative;
   }
 
-.blurb1-container {
+.blurb-container {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -35%);
+  transform: translate(-50%, -55%);
+  z-index: 3;
 
+}
+.blurb{
+  color: var(--accent-color1);
+  margin-bottom: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  width: 30ch;
 }
 
 .header-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(25%, -45%);
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+  z-index: 0;
+  color: #e4eff10e;
+  text-align: center;
+
 }
 
 .header-span{
-  margin-bottom: 3.75rem;
+  font-size: 3.5rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
-.blurb{
-  margin-bottom: 2.75rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+.header-container > :nth-child(1){
+  margin-top: 7.25rem;
+
+
 }
+.header-container > :nth-child(2){
+  margin-top: 1.75rem;
+  /* padding-bottom: 1rem; */
+
+}
+.header-container > :nth-child(3){
+  margin-top: 1.75rem;
+
+}
+
 
 

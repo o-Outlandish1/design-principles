@@ -9,31 +9,29 @@
 
 
 .flex-container{
-  width: 100%;
-  height: 90vh;
+  height: 100vh;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  font-family: sans-serif;
-  /* background-color:pink; */
+  flex-wrap: wrap;
 }
 
 
-.hero-container{
-  /* flex: 1 1 60%; */
+.box-left{
+  width: 100vw;
+  height: 100%;
+  background-color: var(--secondary-color);
+  flex: 2 2 60%;
   min-width: 50%;
-  height: 90vh;
-  background-color: pink;
 }
 
-
-.blurb-container{
+.box-right{
+  width: 100vw;
+  height: 100%;
   flex: 1 1 40%;
-  height: 90vh;
-  /* min-width: 15ch; */
-  background-color: red;
-
+  background-color: var(--primary-color)
 }
+
+
 
 
 
