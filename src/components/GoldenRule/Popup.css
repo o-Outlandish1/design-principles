@@ -12,6 +12,7 @@
     border: solid black;
     margin: 0;
     padding: 0;
+    box-shadow: 1px 1px 1px #878787;
 }
 
 .popup-img img {
@@ -48,4 +49,5 @@
 .popup-close-btn {
     background-color: #eec747;
     border-radius: 20px;
+    box-shadow: 1px 1px 1px #878787;
 }
