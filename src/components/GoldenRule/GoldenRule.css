@@ -37,6 +37,7 @@
 .thirds-p {
     position: fixed;
     padding: 200px 50px;
+    text-align: center;
 }
 
 #golden-card-text {
@@ -87,4 +88,12 @@
 
 #fibonacci {
     max-width: 250px;
+}
+
+.see-more-btn {
+    width: 30%;
+    align-self: center;
+    margin-top: 10px;
+    background-color: #eec747;
+    border-radius: 20px;
 }

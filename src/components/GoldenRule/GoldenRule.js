@@ -39,7 +39,7 @@ const GoldenRule = () => {
                     <div className="golden-crd-img">
                         <img id="fibonacci"src="https://4.bp.blogspot.com/-GHyA4b_EafQ/XHXwXPzYl3I/AAAAAAAAOa0/N37AkH-QYc8QhLj_u5dcZE3vBa-MI07bQCLcBGAs/s1600/Golden%2Bratio%2B-%2Bnautilus%2Bshell.jpg" alt=""/>
                     </div>
-                    <button onClick={togglePopup}>See More</button>
+                    <button className="see-more-btn" onClick={togglePopup}>See More</button>
                 </div>
             </div>
         </div>

@@ -12,8 +12,10 @@ const Popup = ({show, setShow}) => {
             <div className="popup-text">
                 <h2>Golden Ratio in Typography</h2>
                 <p>You can use the golden ratio for different sized Typography
-                as well
-                </p>
+                to create great looking font hierarchies</p>
+                <h2 className="20-header">This is a 20px header</h2>
+                <p>If your body content is 12px like this sentence. Multiply 12 x 1.618 to get
+                    19.5 and round up to 20px for your header/subheader like the header above</p>
                 <button onClick={setShow} className="popup-close-btn">Close</button>
             </div>
         </div> 
