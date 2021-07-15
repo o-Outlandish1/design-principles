@@ -12,6 +12,18 @@ const Carousel = () => {
     },
     arrows:{
       fontSize: '30px',
+    },
+    h1:{
+      fontSize: '2rem',
+      backgroundColor: 'rgb(255, 255, 255, 0.8)',
+      padding: '10px',
+      borderRadius: '9px'
+    },
+    p:{
+      fontSize: '1rem',
+      backgroundColor: 'rgb(255, 255, 255, 0.8)',
+      padding: '10px',
+      borderRadius: '9px'
     }
   }
 
@@ -28,8 +40,8 @@ const Carousel = () => {
              />
            </div>
            <div className="center">
-             <h1>{images[currentImg].title}</h1>
-             <p>{images[currentImg].subtitle}</p>
+             <h1 style={styles.h1}>{images[currentImg].title}</h1>
+             <p style={styles.p}>{images[currentImg].subtitle}</p>
            </div>
            <div className="right">
            <ArrowForwardIosIcon style={styles.arrow}

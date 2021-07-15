@@ -18,7 +18,7 @@ export const images = [
   },
   {
     title: "Angel",
-    subtitle: "this is san diego",
+    subtitle: "“Compiled with warnings”",
     img: angelPic
   },
   {
