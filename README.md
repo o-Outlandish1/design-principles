@@ -100,21 +100,15 @@ in nature have the golden ratio structure.
 
 General UI principles and concepts mainly boil down to making life easy for the user. There are many ways to do accomplish this, here are some of the primary ways to do so:
 
-Use color to reflect the overall theme/brand/personality of the content. Don't exaggerate the branding presence 
-by using too much of the primary color like for the background color of the page. This can distract the user
-from their actions and make contrast, hierarchy more complicated.
+Color: Use color to reflect the overall theme/brand/personality of the content. Don't exaggerate the branding presence by always using the primary color as the background color of the page. This can distract the user from their actions and make contrast, hierarchy more complicated.
 
-Balance the colors used in a 60% primary, 30% secondary, and 10% tertiary. There are tools to contain these ratios that
-help and can also be used for the ratio of sizes of the typography, which can use the same ratio between headers, subheaders, body content, action elements, captions etc.
+Balance the colors used in a 60% primary, 30% secondary, and 10% tertiary. There are tools to contain these ratios that help and can also be used for the ratio of sizes of the typography, which can use the same ratio between headers, subheaders, body content, action elements, captions etc.
 
-Having a good visual hierarchy by presenting the content in a way that users can easily comprehend 
-the importance of each element. Organizing the components so the brain can distinguish the 
-objects based on their size, color, contrast and style.
+Contrast: Our ability to quickly notice differences is what makes contrast powerful. Contrast attracts attention and draws the eye naturally. By giving an element characteristics that are visually different from those around it, we can create points of emphasis and interest. It also creates boundaries, for example, contrasting the background color of the main content and that of the sidebar shows where one begins and the other ends.
 
-the proximity of elements on screen and negative or white space can help the user group content more easily and thus
-categorize them.
+Hierarchy: Having a good visual hierarchy by presenting the content in a way that users can easily comprehend the importance of each element. Organizing the components so the brain can distinguish the objects based on their size, color, contrast and style.
 
-General UI concepts mainly boil down to making life easy for the user. There are many ways to do accomplish this, here are some of the primary ways to do so:
+the proximity of elements on screen and negative or white space can help the user group content more easily and thus better categorize them. A right amount of negative space between the elements will help users to better notice and perceive each of them individually and as a whole.
 
 Be as clear and simple in your design as possible to avoid confusing the user.
 Consistency in design allows the user to recognize and accomplish tasks faster/easier.
@@ -123,7 +117,6 @@ Create a visual hierarchy. This can help the user find what is important, what t
 Have a step-by-step information flow, with the focus on what is currently important to them. Only include information that is relevant to their decisions right now.
 
 ![General UI](https://assets.justinmind.com/wp-content/uploads/2019/09/visual-hierarchy-z-reading-pattern.png)
-
 
 
 

@@ -1,17 +1,5 @@
-<<<<<<< HEAD
-=======
-/* .container{
-   display: flex; 
-  font-size: 1rem;
-  font-family: sans-serif;
-} */
->>>>>>> ed8bdd194a7b3cc9b4374a3a39c5281bc6f6715b
 
 .flatUiBtn{
-  /* display: inline-flex; */
-  /* flex-wrap: wrap; */
-  /* align-items: center; */
-  /* justify-content: flex-end; */
   border-radius: .55rem;
   font-family: sans-serif;
   font-size: 1rem;
