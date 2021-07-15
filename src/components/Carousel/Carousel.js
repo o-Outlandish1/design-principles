@@ -27,7 +27,10 @@ const Carousel = () => {
              }}
              />
            </div>
-           <div className="center"></div>
+           <div className="center">
+             <h1>{images[currentImg].title}</h1>
+             <p>{images[currentImg].subtitle}</p>
+           </div>
            <div className="right">
            <ArrowForwardIosIcon style={styles.arrow}
              onClick={() =>{

@@ -8,21 +8,21 @@ import robynPic from '../Images/robynPic.jpg'
 export const images = [
   {
     title: "Akiko Green",
-    subtitle: "I love memes",
+    subtitle: "'Dont Believe In Yourself!, Believe In The Me That Believes In You!' - Kamina ",
     img: akikoPic
   },
   {
-    title: "San Fernando",
+    title: "Robyn",
     subtitle: "this is san diego",
     img: robynPic
   },
   {
-    title: "San Francisco",
+    title: "Angel",
     subtitle: "this is san diego",
     img: angelPic
   },
   {
-    title: "San Francisco",
+    title: "Andrew",
     subtitle: "this is san diego",
     img: andrewPic
   }
