@@ -5,7 +5,7 @@ export default function TextBox() {
 
   return (
     <div className='textbox-container'>
-      <div className='blurb1-container'>
+      <div className='blurb-container'>
         <p className='blurb'>
           a design approach that emphasizes usability – if an aspect serves no functional
           purpose, it’s seen as a distraction for the user.
