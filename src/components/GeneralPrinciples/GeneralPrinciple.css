@@ -83,3 +83,15 @@
     cursor: pointer;
     font-family: Roboto;
 }
+
+.color-img {
+    display: flex;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.color-emotions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} 

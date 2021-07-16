@@ -53,6 +53,9 @@ const GeneralPrinciple = () => {
                                 brand personality. Select a few colors as a starting palette and rearrange the colors
                                 until the overall personality of the brand is visible, but not overdone.
                             </p>
+                            <div className="color-img">
+                                <img src="https://londonimageinstitute.com/wp-content/uploads/2020/01/How-to-Empower-Yourself-with-Color-Psychology-Varying-Colors.jpg" alt="" className="color-emotions"/>
+                            </div>
                             <h2>Balance of Color Usage</h2>
                             <p> Providing the right amount of light and dark value and variation helps provide 
                                 visual balance. Having a primary, secondary and tertiary color combo is suggested 
