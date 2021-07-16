@@ -1,14 +1,16 @@
 import React from "react";
 import backpack from "./assets/backpack.png";
+import ibackpack from './assets/ibackpack.svg';
 
 const Flayout = () => {
   const styles = {
     body: {
-      backgroundColor: "black",
-      height: "100vh",
+      backgroundColor: "lightgray",
+      height: "93vh",
+      fontFamily: "helvetica"
     },
     nav: {
-      color: "white",
+      color: "black",
       display: "flex",
       marginTop: "0",
       paddingTop: "2rem",
@@ -18,8 +20,23 @@ const Flayout = () => {
       marginLeft: "3.5rem",
       marginRight: "3.5rem",
     },
+    logos: {
+      display: "flex",
+      marginTop: "1rem"
+    },
+    logo: {
+      height: "4rem",
+      width: "4rem",
+      paddingRight: "5px"
+    },
+    title: {
+      fontSize: "2rem"
+    },
+    number: {
+      
+    },
     content: {
-      color: "white",
+      color: "black",
       display: "flex",
       marginLeft: "3.5rem",
       marginTop: "2rem",
@@ -27,11 +44,12 @@ const Flayout = () => {
     },
     aside: {
       textAlign: "left",
-      marginTop: "4rem",
+      marginTop: "3rem",
     },
     photo: {
-      height: "20rem",
-      width: "20rem",
+      height: "18rem",
+      width: "18rem",
+      marginLeft: "7rem"
     },
     bttn: {
       backgroundColor: "orange",
@@ -41,21 +59,30 @@ const Flayout = () => {
       cursor: "pointer",
       fontSize: "1.5rem",
       marginLeft: "3.5rem",
+      padding: "1rem"
     },
   };
 
   return (
     <div style={styles.body}>
       <nav style={styles.nav}>
-        <p>Backpack Company</p>
-        <p>Call 1-800-BACKPACK</p>
+        <div style={styles.logos}>
+          <img style={styles.logo} src={ibackpack} alt="backpack"/>
+          <p style={styles.title}>Bags-R-Us</p>
+        </div>
+        <div>
+          <p style={styles.number}>Call 1-800-BACKPACK</p>
+        </div>
+        
       </nav>
       <div style={styles.content}>
         <div style={styles.aside}>
           We have the best backpacks for every single occasion possible! <br />
           <br />
-          Going back to school? Going camping? Or, check this out... maybe you
-          just want to replace your wallet with a backpack? Boy do we got you.
+          Going back to school? <br />
+          <br />
+          Going camping? Or maybe you
+          just want to replace your wallet with a backpack?
           <br />
           <br />
           We have all the colors, sizes, and materials. <br />
@@ -70,7 +97,7 @@ const Flayout = () => {
         </div>
       </div>
       <div>
-        <input style={styles.bttn} type="submit" value="Check Us Out!" />
+        <input style={styles.bttn} type="submit" value="Buy one Now!" />
       </div>
     </div>
   );

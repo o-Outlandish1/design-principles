@@ -1,22 +1,52 @@
-.carousel-container{
-  width: 100vw;
-  height: 100vh;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- background-color: lightblue;
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap');
 
+.slider{
+position: relative;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-.carousel{
-  width: 60%;
-  height: 500px;
-  background-color: whitesmoke;
+.images{
+  width: 850px;
+  height: 450px;
+  border-radius: 10px;
 }
 
-.carouselInner{
-  height: 100%;
-  width: 100%;
-  
+.right-arrow{
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow{
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide{
+  /* opacity: 0; */
+  transition-duration: 1s ease;
+}
+
+.slide.active{
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.carouselHeader{
+  font-family: 'Crimson Text', serif;
 }
