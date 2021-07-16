@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap');
+
 .slider{
 position: relative;
 height: 100vh;
@@ -45,3 +47,6 @@ align-items: center;
   transform: scale(1.08);
 }
 
+.carouselHeader{
+  font-family: 'Crimson Text', serif;
+}

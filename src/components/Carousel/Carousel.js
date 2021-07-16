@@ -3,6 +3,7 @@ import './carousel.css'
 import {images} from '../../Helper/CarouselData'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 
+
 const Carousel = ({slides}) => {
  
   const [currentImg, setCurrentImg] = useState(0)
@@ -20,7 +21,19 @@ const Carousel = ({slides}) => {
     setCurrentImg(currentImg === 0 ? length - 1 : currentImg - 1)
   }
 
+  const styles = {
+    header:{
+      textAlign: 'center',
+      fontSize: '3rem',
+      wordSpacing: '10px'
+    }
+  }
+
   return (
+    <>
+    <div className="carouselHeader" style={styles.header}>
+      Meet Team 3!
+    </div>
     <section className="slider">
       <FaArrowAltCircleLeft className="left-arrow" 
       onClick={prevSlide}
@@ -38,6 +51,7 @@ const Carousel = ({slides}) => {
          )
      })}
     </section>
+    </>
   );
 };
 
