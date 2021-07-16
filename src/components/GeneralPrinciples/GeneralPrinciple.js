@@ -39,6 +39,9 @@ const GeneralPrinciple = () => {
                                 what they prefer will help a lot. Learn about human centered design
                                 and focus on people first, design second.
                             </p>
+                            <div className="general-img">
+                                <img className="image-img" src="https://static5.depositphotos.com/1001992/410/i/600/depositphotos_4101290-stock-photo-man-with-laptop-and-cup.jpg" alt="" />
+                            </div>
                     </div>
                     <div className={toggleButton === 2 ? "active-content" : "content"}>
                             <h1>Color</h1>
@@ -62,25 +65,33 @@ const GeneralPrinciple = () => {
                                 as well. It's accomplished by using a 60% + 30% + 10% proportion of your 3 colors to give balance 
                                 with the primary being 60% secondary being 30% and tertiary being 10%. 
                             </p>
+                            <div className="general-img">
+                                <img className="image-img" src="https://londonimageinstitute.com/wp-content/uploads/2020/01/How-to-Empower-Yourself-with-Color-Psychology-Varying-Colors.jpg" alt="" />
+                            </div>
                     </div>
                     <div className={toggleButton === 3 ? "active-content" : "content"}>
                         <h1>Contrast</h1>
-                        <p>Ask yourself these questions:</p>
-                        <p> Are the colors distracting the user from performing tasks or affecting the readability?
-                            Does the background really have to grab the most color contrast attention?
-                            Do all 3 buttons really need to have equal contrast?
-                        </p>
                         <p>Our ability to quickly notice differences is what makes contrast powerful.
                             Contrast attracts attention and draws the eye naturally. By giving an element characteristics
                             that are visually different from those around it, we can create points of emphasis and interest.
                             It also creates boundaries, for example, contrasting the background color of the main content and that 
                             of the sidebar shows where one begins and the other ends.
                         </p>
+                        <p>
+                            Having text and other elements with a high contrast to it's background makes things 
+                            easier to read and focus on.
+                        </p>
                         <p>Using color prompts the users attention and attracts their attention to different areas. Be 
                             mindful of how you're using color contrast because it can be very informative or confusing.
                             Use one of the many color contrast tools online to test your design. Test your design,
                             make adjustments and focus on how to make the colors inform the user. 
                         </p>
+                        <div className="general-img">
+                            <img className="image-img" src="https://careerfoundry.com/en/wp-content/uploads/old-blog-uploads/xui-design-mistakes-7.jpg.pagespeed.ic.zBUTLFjeEz.jpg" alt="" className="contrast"/>
+                        </div>
+                        <div className="general-img">
+                            <img className="image-img" src="https://careerfoundry.com/en/wp-content/uploads/old-blog-uploads/xui-design-mistakes-3.jpg.pagespeed.ic.2z474kJt4e.jpg" alt="" className="contrast"/>
+                        </div>
                     </div>
                     <div className={toggleButton === 4 ? "active-content" : "content"}>
                             <h1>Hierarchy</h1>
@@ -99,6 +110,9 @@ const GeneralPrinciple = () => {
                                 level to typography just like with color. Another tip to keep in mind is that on smaller devices 
                                 like phones, keeping it to two levels is recommended since there isn't enough screen size to account for three.
                             </p>
+                            <div className="general-img">
+                                <img className="image-img" src="https://uploads.toptal.io/blog/image/127525/toptal-blog-image-1541524165239-0eeb10a7bd644caca401a64a902b0269.png" alt="" />
+                            </div>
                     </div>
                     <div className={toggleButton === 5 ? "active-content" : "content"}>
                             <h1>Negative Space</h1>
@@ -111,6 +125,9 @@ const GeneralPrinciple = () => {
                                 and categorize them. Dividing the content into subcategories and giving them appropriate space between 
                                 helps this perception.
                             </p>
+                            <div className="general-img">
+                                <img className="image-img" src="https://miro.medium.com/max/2000/1*sHJcHO5FuqFsqxrhyqW5Bg.png" alt="" />
+                            </div>
                     </div>
                     <div className={toggleButton === 6 ? "active-content" : "content"}>
                             <h1>Clear and Simple</h1>
@@ -141,6 +158,9 @@ const GeneralPrinciple = () => {
                                 Take into mind that users will find ways to run into errors that you may have not
                                 thought of at first. Be overly cautious about potential errors/problems the user may have.
                             </p>
+                            <div className="general-img">
+                                <img src="https://miro.medium.com/max/1400/1*8vxEG0_9CBNboImHBhEP_w.png" alt="" className="image-img"/>
+                            </div>
                     </div>
                     <div className={toggleButton === 9 ? "active-content" : "content"}>
                             <h1>Design Extras</h1>
@@ -156,6 +176,9 @@ const GeneralPrinciple = () => {
                                 Details should associate with the current choice the user is making, don't include 
                                 too many details at once and give them gradually.
                             </p>
+                            <div className="general-img">
+                                <img className="image-img" src="https://designmodo.com/wp-content/uploads/2016/10/Checkout-Form.jpg" alt="" />
+                            </div>
                     </div>
                 </div>
             </div>
