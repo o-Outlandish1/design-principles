@@ -1,17 +1,14 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-// import FlatUI from '../Components/FlatUI/Button/Button';
+import Carousel from '../components/Carousel/Carousel';
 import GeneralPrinciples from '../components/GeneralPrinciples/GeneralPrinciple';
 import GoldenRules from '../components/GoldenRule/GoldenRule';
 import Flayout from "../components/Flayout/Flayout";
 import Zlayout from "../components/Zlayout/Zlayout";
 import Neumorphism from '../components/Neumorphism/Neumorphism';
 import Glassmorphism from '../components/Glassmorphism/Glassmorphism';
-// **************
-import Carousel from '../components/Carousel/Carousel';
-// import your component here
-// ***************
+// import your component here*
 import {FlatUI} from '../views/index';
 
 
@@ -26,7 +23,6 @@ export default (
     <Route path="/glassmorphism" component={ Glassmorphism } />
     <Route path="/flat-ui" component={FlatUI} />
       {/* <Route path="/material-ui" component={ MaterialUI } /> */}
-// ************************
-    <Route path="/carousel" component={Carousel}/>
+    <Route path="/" component={Carousel}/>
   </Switch>
 );
