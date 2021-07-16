@@ -4,6 +4,8 @@ import andrewPic from '../Images/andrewPic.png'
 import angelPic from '../Images/angelPic.jpg'
 import patrickMeme from '../Images/patrickMeme.jpg'
 import robynPic from '../Images/robynPic.jpg'
+import rossMeme from '../Images/rossMeme.jpeg'
+
 
 export const images = [
   {
@@ -12,18 +14,27 @@ export const images = [
     img: akikoPic
   },
   {
+    img: akikoMeme
+  },
+  {
     title: "Robyn",
     subtitle: "this is san diego",
     img: robynPic
   },
   {
     title: "Angel",
-    subtitle: "“Compiled with warnings”",
+    subtitle: "“Compiled With Warnings”",
     img: angelPic
   },
   {
+    img: patrickMeme
+  },
+  {
     title: "Andrew",
-    subtitle: "this is san diego",
+    subtitle: "“Can Throw An Error A Quarter Mile”",
     img: andrewPic
+  },
+  {
+    img:rossMeme
   }
 ]
