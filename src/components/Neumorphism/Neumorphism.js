@@ -4,29 +4,25 @@ import './index.css';
 const Neumorphism = () => {
   const styles = {
     neuContainer: {
+      position: 'absolute',
       display: 'flex',
       justifyContent: 'center',
-      margin: '22px',
-      backgroundColor: '#dde1e7'
+      backgroundColor: '#0a0a0a',
+      height: '100%',
+      width: '100%'
     },
     div: {
-      backgroundColor: '#dde1e7'
+      backgroundColor: '#0a0a0a'
     },
     h1: {
       textAlign: 'center',
-      margin: '0'
+      margin: '0',
+      color:'white',
     },
-    exampleBox: {
-      width: '50vw',
-      height: '500px',
-      backgroundImage: "url('https://miro.medium.com/max/2000/1*V-C9NqCL-a6d_ulZnmFDAA.png')",
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'center',
-      backgroundSize: 'cover'
-    },
-    imageContainer: {
-      display: 'flex',
-      justifyContent: 'center'
+    button:{
+      background: 'white',
+      padding: '22px',
+      margin: '2em 0 0 5em',
     }
   };
 
@@ -34,24 +30,12 @@ const Neumorphism = () => {
     <div style={styles.div}>
       <h1 style={styles.h1}>NEUMORPHISM</h1>
       <div className="neuContainer" style={styles.neuContainer}>
-        <div className="descriptionBox" style={styles.descriptionBox} />
-        {/* login information here */}
-        <div className="login-div">
-          <div className="logo" />
-          <div className="title">Web Development</div>
-          <div className="sub-title">Made Easy!</div>
-          <div className="fields">
-            <div className="username">
-              <input type="username" className="user-input" placeholder="username" />
-            </div>
-            <div className="password">
-              <input type="password" className="pass-input" placeholder="password" />
+        <div className="dark-mode-container" style={styles.darkMode}>
+          <div className="ig-logo-bg">
+            <div className="logo">
             </div>
           </div>
-          <button className="signinButton">Login</button>
-          <div className="link">
-            <a href="#"> Forgot Passsword</a> or <a href="#">Sign Up</a>
-          </div>
+            <button style={styles.button} className="TwitterButton">Button</button>
         </div>
       </div>
     </div>
