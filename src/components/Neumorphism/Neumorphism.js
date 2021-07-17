@@ -7,12 +7,12 @@ const Neumorphism = () => {
       position: 'absolute',
       display: 'flex',
       justifyContent: 'center',
-      backgroundColor: '#0a0a0a',
+      backgroundColor: '#171717',
       height: '100%',
       width: '100%'
     },
     div: {
-      backgroundColor: '#0a0a0a'
+      backgroundColor: '#171717'
     },
     h1: {
       textAlign: 'center',
@@ -20,11 +20,17 @@ const Neumorphism = () => {
       color:'white',
     },
     button:{
-      background: 'white',
-      padding: '22px',
-      margin: '2em 0 0 5em',
+      padding: '11px 57px',
+      margin: '2.5em 0px 0px 0.8em',
+      borderRadius: '20px',
+      backgroundColor: '#171717',
+      color: 'white',
+      border: 'none',
+      boxShadow:'  17px 17px 40px #090909,  -19px -19px 21px #252525',
+      fontSize: '20px'
     }
   };
+// note to self when button clicked INSET the shadow to be like you are clicking on it physically
 
   return (
     <div style={styles.div}>

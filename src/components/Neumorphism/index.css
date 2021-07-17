@@ -2,14 +2,15 @@
   position: relative;
   /* background: linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%, #cc2366 75%,#bc1888 100%
   );
-  instagram logo colors
+  instagram logo
   */
  
   height: 200px;
   width: 200px;
   border-radius: 49px;
-background: linear-gradient(145deg, #101010, #131313);
-box-shadow:  19px 19px 38px #0a0a0a,-19px -19px 38px #1a1a1a;
+  background: #171717;
+/* background: linear-gradient(145deg, #101010, #131313); */
+box-shadow:  17px 17px 40px #090909,-19px -19px 21px #252525;
 
 }
 
