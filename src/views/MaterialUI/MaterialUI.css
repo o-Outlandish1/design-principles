@@ -1,0 +1,30 @@
+:root{
+  --smoky-black: rgb(23, 18, 21);
+  --light-periwinkle: #C7CEDB;
+  --dark-slate-gray: #1A5E63;
+  --metallic-seaweed: rgb(2, 128, 144);
+  --dark-olive-green: #656839;
+  --spanish-blue: #2374AB;
+
+  --silver-pink: rgb(201, 173, 161);
+  --steel-teal: rgb(78, 135, 140);
+
+  --independence: rgb(58, 64, 90);
+  --lightblue-steel: rgb(174, 197, 235);
+  --unbleached-silk: rgb(249, 222, 201);
+  --melon: rgb(233, 175, 163);
+  --mystic: rgb(214, 87, 128);
+  --umber: rgb(104, 80, 68);
+
+}
+
+.material-viewContainer{
+  height: 100vh;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Comfortaa", cursive;
+  background-color: var(--metallic-seaweed);
+  align-items: center;
+  justify-content: center;
+}

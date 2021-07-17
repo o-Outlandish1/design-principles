@@ -1,5 +1,5 @@
 import React from "react"
-import { Button, TextBox, Hero} from "../../components/FlatUI/index"
+import { TextBox, Hero} from "../../components/FlatUI/index"
 import "./FlatUI.css"
 
 export default function FlatUI(){

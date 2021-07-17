@@ -1,0 +1,56 @@
+:root{
+  --material-shadow: 0 .6rem 1.25rem rgba(23, 18, 21, .3), 0 .6rem .6rem rgba(23, 18, 21, 0.4), 0 -0.3rem .75rem rgba(2, 128, 144, .3), 0 -0.3rem .3rem rgba(2, 128, 144, .4);
+}
+
+.material-card-container{
+  position: relative;
+  width: 27rem;
+  height: 21rem;
+  background-color: var(--independence);
+  border-radius: 1rem;
+  color: var(--light-periwinkle);
+   /* box-shadow: 1rem 1rem 1rem #1712155d; */
+  box-shadow: 0 .6rem 1.25rem rgba(23, 18, 21, .3), 0 .6rem .6rem rgba(23, 18, 21, 0.4), 0 .3rem .75rem rgba(2, 128, 144, .3), 0 .3rem .3rem rgba(2, 128, 144, .4);
+
+}
+
+.material-card-content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  justify-content: center;
+  /* align-items: center; */
+  flex-basis: 100%;
+  margin-left: 10%;
+  padding: 1rem;
+}
+
+.material-title{
+  margin-bottom: 0;
+
+}
+
+.material-subtitle{
+  margin-top: 0;
+  font-weight: 300;
+}
+
+.material-card-text{
+  width: 35ch;
+  word-wrap: break-word;
+
+}
+
+.material-button{
+  position: absolute;
+  width: .5rem;
+  height: 100%;
+  background-color: var(--mystic);
+  border-radius: 1rem;
+  border: none;
+  top: 0%;
+  left: 97%;
+}
+
+
+
