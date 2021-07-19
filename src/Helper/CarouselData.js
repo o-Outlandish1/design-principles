@@ -3,9 +3,9 @@ import AkikoPic from '../Images/AkikoPic.jpg'
 import AndrewPic from '../Images/AndrewPic.png'
 import AngelPic from '../Images/AngelPic.jpg'
 import PatrickMeme from '../Images/PatrickMeme.jpg'
-import RobynPic from '../Images/RobynPic.jpg'
+import robynPic from '../Images/robynPic.jpg'
 import rossMeme from '../Images/rossMeme.jpeg'
-import RobynMeme from '../Images/robynMeme.jpg'
+import RobynMeme from '../Images/RobynMeme.jpg'
 
 export const images = [
   {
@@ -16,7 +16,7 @@ export const images = [
     img: AkikoMeme
   },
   {
-    img: RobynPic
+    img: robynPic
   },
   {
     img: RobynMeme

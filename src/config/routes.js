@@ -7,10 +7,9 @@ import Flayout from "../components/Flayout/Flayout";
 import Zlayout from "../components/Zlayout/Zlayout";
 import Neumorphism from '../components/Neumorphism/Neumorphism';
 import Glassmorphism from '../components/Glassmorphism/Glassmorphism';
-// import your component here*
 import {FlatUI} from '../views/index';
-import {MaterialUI} from '../views/index';
 import NeuPinkMode from '../components/Neumorphism/NeuPinkMode';
+import {MaterialUI} from '../views/index';
 
 export default (
   <Switch>
