@@ -47,8 +47,8 @@ const Neumorphism = ({history}) => {
             <div className="logo">
             </div>
           </div>
-            <button style={styles.button}
-            className="toNeuPink" onClick={() => history.push('/neu-pink-mode')}>Click Me</button>
+            {/* <button style={styles.button}
+            className="toNeuPink" onClick={() => history.push('/neu-pink-mode')}>Click Me</button> */}
         </div>
       </div>
       {/* <NeuPinkMode /> */}
