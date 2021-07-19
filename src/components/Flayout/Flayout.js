@@ -32,9 +32,6 @@ const Flayout = () => {
     title: {
       fontSize: "2rem"
     },
-    number: {
-      
-    },
     content: {
       color: "black",
       display: "flex",
@@ -71,7 +68,7 @@ const Flayout = () => {
           <p style={styles.title}>Bags-R-Us</p>
         </div>
         <div>
-          <p style={styles.number}>Call 1-800-BACKPACK</p>
+          <p>Call 1-800-BACKPACK</p>
         </div>
         
       </nav>

@@ -1,9 +1,9 @@
-import akikoMeme from '../Images/akikoMeme.jpg'
-import akikoPic from '../Images/akikoPic.jpg'
-import andrewPic from '../Images/andrewPic.png'
-import angelPic from '../Images/angelPic.jpg'
-import patrickMeme from '../Images/patrickMeme.jpg'
-import robynPic from '../Images/robynPic.jpg'
+import akikoMeme from '../Images/AkikoMeme.jpg';
+import akikoPic from '../Images/AkikoPic.jpg'
+import andrewPic from '../Images/AndrewPic.png'
+import angelPic from '../Images/AngelPic.jpg'
+import patrickMeme from '../Images/PatrickMeme.jpg'
+import robynPic from '../Images/RobynPic.jpg'
 import rossMeme from '../Images/rossMeme.jpeg'
 
 
