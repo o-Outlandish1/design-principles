@@ -1,7 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './index.css';
+import NeuPinkMode from './NeuPinkMode';
+import { Link } from "react-router-dom";
 
-const Neumorphism = () => {
+const Neumorphism = ({history}) => {
+
+  const [setClicked] = useState(true)
+
   const styles = {
     neuContainer: {
       position: 'absolute',
@@ -30,7 +35,8 @@ const Neumorphism = () => {
       fontSize: '20px'
     }
   };
-// note to self when button clicked INSET the shadow to be like you are clicking on it physically
+// note to self when button clicked INSET the shadow to be like you are abut to click on it
+
 
   return (
     <div style={styles.div}>
@@ -41,9 +47,11 @@ const Neumorphism = () => {
             <div className="logo">
             </div>
           </div>
-            <button style={styles.button} className="TwitterButton">Button</button>
+            {/* <button style={styles.button}
+            className="toNeuPink" onClick={() => history.push('/neu-pink-mode')}>Click Me</button> */}
         </div>
       </div>
+      {/* <NeuPinkMode /> */}
     </div>
   );
 };
