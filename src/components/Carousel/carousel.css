@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap');
 
+
 .slider{
 position: relative;
 height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
+background: rgb(14, 48, 111);
 }
 
 .images{
-  width: 850px;
-  height: 450px;
+  width: 57vw;
+  height: 75vh;
+  /* width: 850px;
+  height: 450px; */
   border-radius: 10px;
 }
 
@@ -49,4 +53,6 @@ align-items: center;
 
 .carouselHeader{
   font-family: 'Crimson Text', serif;
+  background: rgb(14, 48, 111);
+  color: whitesmoke;
 }

@@ -1,37 +1,33 @@
-import AkikoMeme from '../Images/AkikoMeme.jpg'
-import AkikoPic from '../Images/AkikoPic.jpg'
-import AndrewPic from '../Images/AndrewPic.png'
-import AngelPic from '../Images/AngelPic.jpg'
-import PatrickMeme from '../Images/PatrickMeme.jpg'
-import RobynPic from '../Images/RobynPic.jpg'
+import AkikoMeme from '../Images/akikoMeme.jpg'
+import AkikoPic from '../Images/akikoPic.jpg'
+import AndrewPic from '../Images/andrewPic.png'
+import AngelPic from '../Images/angelPic.jpg'
+import PatrickMeme from '../Images/patrickMeme.jpg'
+import RobynPic from '../Images/robynPic.jpg'
 import rossMeme from '../Images/rossMeme.jpeg'
-
+import RobynMeme from '../Images/robynMeme.jpg'
 
 export const images = [
   {
-    title: "Akiko Green",
-    subtitle: "'Dont Believe In Yourself!, Believe In The Me That Believes In You!' - Kamina ",
+
     img: AkikoPic
   },
   {
     img: AkikoMeme
   },
   {
-    title: "Robyn",
-    subtitle: "this is san diego",
     img: RobynPic
   },
   {
-    title: "Angel",
-    subtitle: "“Compiled With Warnings”",
+    img: RobynMeme
+  },
+  {
     img: AngelPic
   },
   {
     img: PatrickMeme
   },
   {
-    title: "Andrew",
-    subtitle: "“Can Throw An Error A Quarter Mile”",
     img: AndrewPic
   },
   {

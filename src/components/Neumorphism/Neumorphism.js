@@ -1,59 +1,57 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './index.css';
+import NeuPinkMode from './NeuPinkMode';
+import { Link } from "react-router-dom";
 
-const Neumorphism = () => {
+const Neumorphism = ({history}) => {
+
+  const [setClicked] = useState(true)
+
   const styles = {
     neuContainer: {
+      position: 'absolute',
       display: 'flex',
       justifyContent: 'center',
-      margin: '22px',
-      backgroundColor: '#dde1e7'
+      backgroundColor: '#171717',
+      height: '100%',
+      width: '100%'
     },
     div: {
-      backgroundColor: '#dde1e7'
+      backgroundColor: '#171717'
     },
     h1: {
       textAlign: 'center',
-      margin: '0'
+      margin: '0',
+      color:'white',
     },
-    exampleBox: {
-      width: '50vw',
-      height: '500px',
-      backgroundImage: "url('https://miro.medium.com/max/2000/1*V-C9NqCL-a6d_ulZnmFDAA.png')",
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'center',
-      backgroundSize: 'cover'
-    },
-    imageContainer: {
-      display: 'flex',
-      justifyContent: 'center'
+    button:{
+      padding: '11px 57px',
+      margin: '2.5em 0px 0px 0.8em',
+      borderRadius: '20px',
+      backgroundColor: '#171717',
+      color: 'white',
+      border: 'none',
+      boxShadow:'  17px 17px 40px #090909,  -19px -19px 21px #252525',
+      fontSize: '20px'
     }
   };
+// note to self when button clicked INSET the shadow to be like you are abut to click on it
+
 
   return (
     <div style={styles.div}>
       <h1 style={styles.h1}>NEUMORPHISM</h1>
       <div className="neuContainer" style={styles.neuContainer}>
-        <div className="descriptionBox" style={styles.descriptionBox} />
-        {/* login information here */}
-        <div className="login-div">
-          <div className="logo" />
-          <div className="title">Web Development</div>
-          <div className="sub-title">Made Easy!</div>
-          <div className="fields">
-            <div className="username">
-              <input type="username" className="user-input" placeholder="username" />
-            </div>
-            <div className="password">
-              <input type="password" className="pass-input" placeholder="password" />
+        <div className="dark-mode-container" style={styles.darkMode}>
+          <div className="ig-logo-bg">
+            <div className="logo">
             </div>
           </div>
-          <button className="signinButton">Login</button>
-          <div className="link">
-            <a href="#"> Forgot Passsword</a> or <a href="#">Sign Up</a>
-          </div>
+            {/* <button style={styles.button}
+            className="toNeuPink" onClick={() => history.push('/neu-pink-mode')}>Click Me</button> */}
         </div>
       </div>
+      {/* <NeuPinkMode /> */}
     </div>
   );
 };
