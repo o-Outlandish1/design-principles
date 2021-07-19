@@ -4,7 +4,7 @@ import AndrewPic from '../Images/AndrewPic.png'
 import AngelPic from '../Images/AngelPic.jpg'
 import PatrickMeme from '../Images/PatrickMeme.jpg'
 import robynPic from '../Images/robynPic.jpg'
-import rossMeme from '../Images/rossMeme.jpeg'
+import RossMeme from '../Images/RossMeme.jpeg'
 import RobynMeme from '../Images/RobynMeme.jpg'
 
 export const images = [
@@ -31,6 +31,6 @@ export const images = [
     img: AndrewPic
   },
   {
-    img:rossMeme
+    img:RossMeme
   }
 ]

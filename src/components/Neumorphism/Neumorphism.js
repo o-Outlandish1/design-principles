@@ -1,11 +1,8 @@
 import React, {useState} from 'react';
 import './index.css';
-import NeuPinkMode from './NeuPinkMode';
 import { Link } from "react-router-dom";
 
 const Neumorphism = ({history}) => {
-
-  const [setClicked] = useState(true)
 
   const styles = {
     neuContainer: {
@@ -47,11 +44,8 @@ const Neumorphism = ({history}) => {
             <div className="logo">
             </div>
           </div>
-            <button style={styles.button}
-            className="toNeuPink" onClick={() => history.push('/neu-pink-mode')}>Click Me</button>
         </div>
       </div>
-      {/* <NeuPinkMode /> */}
     </div>
   );
 };

@@ -8,7 +8,6 @@ import Zlayout from "../components/Zlayout/Zlayout";
 import Neumorphism from '../components/Neumorphism/Neumorphism';
 import Glassmorphism from '../components/Glassmorphism/Glassmorphism';
 import {FlatUI} from '../views/index';
-import NeuPinkMode from '../components/Neumorphism/NeuPinkMode';
 import {MaterialUI} from '../views/index';
 
 export default (
@@ -21,10 +20,6 @@ export default (
     <Route path="/glassmorphism" component={ Glassmorphism } />
     <Route path="/flat-ui" component={FlatUI} />
     <Route path="/material-ui" component={ MaterialUI } />
-    <Route path="/neu-pink-mode" component={NeuPinkMode}/>
-    <Route path="/" component={Carousel}/>
-    <Route path="/material-ui" component={ MaterialUI } />
-    <Route path="/neu-pink-mode" component={NeuPinkMode}/>
     <Route path="/" component={Carousel}/>
   </Switch>
 );
