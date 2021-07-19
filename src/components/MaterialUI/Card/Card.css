@@ -1,6 +1,6 @@
 :root{
 
-  --small-shadow: 0 .5rem .75rem rgba(23, 18, 21, .3), 0 .3rem .3rem rgba(23, 18, 21, 0.4), 0 -0.2rem .375rem rgba(2, 128, 144, .3), 0 -0.2rem .2rem rgba(2, 128, 144, .4);
+  --small-shadow: 0 .5rem .75rem rgba(23, 18, 21, .3), 0 .3rem .3rem rgba(23, 18, 21, 0.4), 0 -0.2rem .375rem rgba(58, 64, 90, .3), 0 -0.2rem .2rem rgba(58, 64, 90, .4);
   --large-shadow: 0 .6rem 1.25rem rgba(23, 18, 21, .3), 0 .6rem .6rem rgba(23, 18, 21, 0.4), 0 -0.3rem .75rem rgba(2, 128, 144, .3), 0 -0.3rem .3rem rgba(2, 128, 144, .4);
 
 
@@ -49,6 +49,22 @@
   padding: 1rem;
 }
 
+.material-img{
+  position: relative;
+  width: 12rem;
+  height: 9rem;
+  font-size: 5rem;
+  text-align: center;
+  padding: 1.75rem;
+  margin-top: 2.5rem;
+  right: 12%;
+  background-color: var(--mystic-links);
+  opacity: 85%;
+  border-radius: 1rem;
+  box-shadow: var(--small-shadow);
+
+}
+
 .material-title{
   margin-bottom: 0;
 
@@ -80,7 +96,6 @@
   background-color: transparent;
   top: -25%;
   left: 45%;
-  box-shadow: 0 -1.25rem 1rem -1.25rem rgba(214, 87, 128, 0.6), inset -0.1rem 1.5rem 0.6rem -1.35rem rgba(214, 87, 128, 0.6), inset -1.5rem 0 0.65rem -1.45rem  rgba(214, 87, 128, 0.6), 2rem -1.75rem 0.5rem -1.75rem rgba(58, 64, 90, .7);
-  /* box-shadow: 0 -1rem 1rem -0.8rem rgba(214, 87, 128, .4), 0.6rem -0.3rem 0.6rem rgba(58, 64, 90, .3), 0.5rem -0.3rem 0.6rem rgba(23, 18, 21, .3); */
+  box-shadow: 0 -1.25rem 0.5rem -1.25rem rgba(214, 87, 128, 0.6), inset -0.1rem 1.5rem 0.5rem -1.45rem rgba(214, 87, 128, 0.6), inset -1.5rem 0 0.5rem -1.45rem  rgba(214, 87, 128, 0.6), 1.5rem -2rem 0.75rem -2rem rgba(58, 64, 90, .7), 0.4rem -0.4rem 0.2rem -0.1rem  rgba(23, 18, 21, .2), inset -0.3rem 0.2rem 0.3rem 0.09rem rgba(23, 18, 21, .3);
 
 }
