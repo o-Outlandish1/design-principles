@@ -169,7 +169,8 @@ Have a step-by-step information flow, with the focus on what is currently import
 - https://medium.com/publishous/composition-the-rule-of-thirds-and-the-golden-ratio-d587da486d26
 - https://medium.com/@cherinow/golden-spiral-rule-of-thirds-in-art-and-photography-bf4285dff59a
 
-
+# Powerpoint Presentation 
+[Team 3 Powerpoint Presentation](https://docs.google.com/presentation/d/10cSmQrcjb77CXG1BfX_X5MmbZ94-XG-Er3BbSvG8VfY/edit?usp=sharing)
 # Additional Dependencies
 
 -[Nodemon](https://nodemon.io/) -[React Router](https://reactrouter.com/web/guides/quick-start)

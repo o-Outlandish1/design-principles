@@ -32,7 +32,7 @@ const Carousel = ({slides}) => {
   return (
     <>
     <div className="carouselHeader" style={styles.header}>
-      Meet Team 3!
+      Meet Team 1!
     </div>
     <section className="slider">
       <FaArrowAltCircleLeft className="left-arrow" 
