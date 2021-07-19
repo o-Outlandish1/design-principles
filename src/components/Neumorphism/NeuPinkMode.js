@@ -26,18 +26,18 @@ const NeuPinkMode = () => {
       <h1 style={styles.h1}>Pink Mode</h1>
       <div className="twitter-container" style={styles.neuContainer}>
         <div className="head"></div>
-        <div className="body"></div>
-        <div className="body-none"></div>
-        <div className="beak-bottom"></div>
-        <div className="beak-bottom-none"></div>
-        <div className="wing-bottom"></div>
-        <div className="wing-bottom-none"></div>
-        <div className="wing-middle"></div>
-        <div className="wing-middle-none"></div>
-        <div className="wing-top"></div>
-        <div className="wing-top-none"></div>
-        <div className="beak-top"></div>
-        <div className="beak-top-none"></div>
+        <div className="bird"></div>
+
+       <ul class="wing">
+         <li className="w1"></li>
+         <li className="w2"></li>
+         <li className="w3"></li>
+       </ul>
+       <ol class="beak">
+         <li className="b1"></li>
+         <li className="b2"></li>
+         <li className="b3"></li>
+       </ol>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
-background: rgb(14, 48, 111);
+background: #f3a683;;
 }
 
 .images{
@@ -53,6 +53,6 @@ background: rgb(14, 48, 111);
 
 .carouselHeader{
   font-family: 'Crimson Text', serif;
-  background: rgb(14, 48, 111);
+  background: #f3a683;
   color: whitesmoke;
 }
