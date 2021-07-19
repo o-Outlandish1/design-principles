@@ -80,6 +80,8 @@
     color: white;
     cursor: pointer;
     font-family: Roboto;
+    border-bottom: black solid;
+    border-top: none;
 }
 
 .general-img {
