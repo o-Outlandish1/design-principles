@@ -10,7 +10,6 @@ import Glassmorphism from '../components/Glassmorphism/Glassmorphism';
 import {FlatUI} from '../views/index';
 import {MaterialUI} from '../views/index';
 
-
 export default (
   <Switch>
     <Route path="/general-principles" component={ GeneralPrinciples } />
@@ -21,7 +20,6 @@ export default (
     <Route path="/glassmorphism" component={ Glassmorphism } />
     <Route path="/flat-ui" component={FlatUI} />
     <Route path="/material-ui" component={ MaterialUI } />
-    <Route path="/" component={Carousel}/>
     <Route path="/" component={Carousel}/>
   </Switch>
 );
