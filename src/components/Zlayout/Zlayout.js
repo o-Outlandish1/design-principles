@@ -1,58 +1,62 @@
 import React from "react";
+import './Zlayout.css';
 import backpack from "./assets/backpack.png";
+import ibackpack from './assets/ibackpack.svg';
 
 const Zlayout = () => {
   const styles = {
     body: {
-      backgroundColor: "black",
-      height: "100%",
-      paddingBottom: '1rem'
+      backgroundColor: "lightgray",
+      height: "93vh",
+      fontFamily: "helvetica"
     },
-    nav: {
-      color: "white",
-      marginTop: "0",
-      paddingTop: "2rem",
+    logos: {
+      marginLeft: "1rem",
+      paddingTop: "1rem",
+      display: "flex",
+      fontWeight: "bold",
+    },
+    logo: {
+      height: "4rem",
+      width: "4rem",
+      paddingRight: "5px"
+    },
+    title: {
+      fontSize: "2rem"
+    },
+    banner: {
+      fontSize: "xx-large",
+      fontWeight: "bolder",
     },
     content: {
       display: "flex",
       height: "30%",
       justifyContent: "space-between",
-      marginLeft: "12rem",
-      marginRight: "12rem",
-    },
-    title: {
-      color: "white",
-      backgroundColor: "black",
-      fontSize: "xxx-large",
+      alignItems: "center",
+      marginLeft: "3.5rem",
+      marginRight: "3.5rem",
     },
     image: {
-      color: "white",
-      fontSize: "xx-large",
       height: "10rem",
       width: "10rem",
     },
     cta: {
-      color: "white",
       display: "flex",
       justifyContent: "space-between",
-      marginTop: "3rem",
-      marginLeft: "12rem",
-      marginRight: "12rem",
+      marginTop: "3.5rem",
+      marginLeft: "3.5rem",
+      marginRight: "3.5rem",
     },
     aside: {
-      color: "white",
       fontSize: "large",
-      width: "60%",
-      backgroundColor: "gray",
+      width: "50%",
       textAlign: "left",
-      fontWeight: "bold",
     },
     form: {
+      border: "solid 5px black",
       display: "flex",
-      color: "white",
       flexFlow: "column",
-      justifyContent: "space-around",
-      border: ".2rem solid white",
+      justifyContent: "space-between"
     },
     bttn: {
       backgroundColor: "orange",
@@ -60,6 +64,7 @@ const Zlayout = () => {
       borderRadius: ".75rem",
       cursor: "pointer",
       fontSize: "1.5rem",
+      marginBottom: "1.5rem"
     },
     photo: {
       height: "15rem",
@@ -69,10 +74,13 @@ const Zlayout = () => {
 
   return (
     <div style={styles.body}>
-      <h2 style={styles.nav}>[Company Logo]</h2>
+      <div style={styles.logos}>
+        <img style={styles.logo} src={ibackpack} alt="backpack"/>
+        <p style={styles.title}>Bags-R-Us</p>
+      </div>
       <div style={styles.content}>
         <div>
-          <p style={styles.title}>BEST BACKPACKS EVER!</p>
+          <p style={styles.banner} >BEST BACKPACKS EVER!</p>
         </div>
         <div>
           <img style={styles.photo} src={backpack} alt="backpack" />
@@ -80,19 +88,35 @@ const Zlayout = () => {
       </div>
       <div style={styles.cta}>
         <aside style={styles.aside}>
-          We have the best backpacks for every single occasion possible! <br />
-          <br />
-          Going back to school? Going camping? Or, check this out... maybe you
-          just want to replace your wallet with a backpack? Boy do we got you.
-          <br />
-          <br />
-          We have all the colors, sizes, and materials. <br />
-          <br />
-          We have plastic backpacks, leather backpacks, rubber backpacks;
-          Literally anything, we can make it. <br />
-          <br />I promise. We got you. So please come check us out, I promise we
+          <ul>
+            <li>
+              We have the best backpacks for every single occasion possible! 
+            </li>
+            <br/>
+            <li>
+              Going back to school? Going camping? Or, check this out... maybe you
+              just want to replace your wallet with a backpack?
+            </li>
+            <br/>
+            <li>
+              We have all the colors, sizes, and materials; plastic, leather, rubber, anything. <br />
+            </li>
+            <br/>
+            <li>
+              I promise. We got you. So please come check us out, I promise we
           deliver.
+            </li>
+          </ul>
         </aside>
+        
+        {/* <div style={styles.form} className='formmm'>
+          <p>ORDER NOW!</p>
+          <input type='text' style={styles.form_input} className='form_input'/>
+          <label style={styles.form_label} className='form_label'>Email</label>
+          <input type='text' style={styles.form_input} className=''/>
+          <label style={styles.form_label} className=''>Name</label>
+        </div> */}
+
         <form style={styles.form}>
           <p>Order Now!!</p>
           <div>
