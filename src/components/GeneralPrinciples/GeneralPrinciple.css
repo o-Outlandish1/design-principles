@@ -14,8 +14,6 @@
     min-height: 70%;
     display: flex;
     justify-content: flex-start;
-    display: flex;
-    justify-content: flex-start;
     flex-flow: column wrap;
 }
 
@@ -98,6 +96,3 @@
     justify-content: center;
 } 
 
-.easy-image {
-    margin-left: 20px;
-}
