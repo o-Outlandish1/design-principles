@@ -4,6 +4,9 @@
   height: 3rem;
   justify-content: space-around;
   align-items: center;
+
+  position: sticky;
+  top: 0;
 }
 
 .ui-link {
