@@ -1,38 +1,34 @@
-import akikoMeme from '../Images/AkikoMeme.jpg';
-import akikoPic from '../Images/AkikoPic.jpg'
-import andrewPic from '../Images/AndrewPic.png'
-import angelPic from '../Images/AngelPic.jpg'
-import patrickMeme from '../Images/PatrickMeme.jpg'
-import robynPic from '../Images/RobynPic.jpg'
+import AkikoMeme from '../Images/akikoMeme.jpg'
+import AkikoPic from '../Images/akikoPic.jpg'
+import AndrewPic from '../Images/andrewPic.png'
+import AngelPic from '../Images/angelPic.jpg'
+import PatrickMeme from '../Images/patrickMeme.jpg'
+import RobynPic from '../Images/robynPic.jpg'
 import rossMeme from '../Images/rossMeme.jpeg'
-
+import RobynMeme from '../Images/robynMeme.jpg'
 
 export const images = [
   {
-    title: "Akiko Green",
-    subtitle: "'Dont Believe In Yourself!, Believe In The Me That Believes In You!' - Kamina ",
-    img: akikoPic
+
+    img: AkikoPic
   },
   {
-    img: akikoMeme
+    img: AkikoMeme
   },
   {
-    title: "Robyn",
-    subtitle: "this is san diego",
-    img: robynPic
+    img: RobynPic
   },
   {
-    title: "Angel",
-    subtitle: "“Compiled With Warnings”",
-    img: angelPic
+    img: RobynMeme
   },
   {
-    img: patrickMeme
+    img: AngelPic
   },
   {
-    title: "Andrew",
-    subtitle: "“Can Throw An Error A Quarter Mile”",
-    img: andrewPic
+    img: PatrickMeme
+  },
+  {
+    img: AndrewPic
   },
   {
     img:rossMeme
