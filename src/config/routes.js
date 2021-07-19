@@ -24,6 +24,6 @@ export default (
     <Route path="/flat-ui" component={FlatUI} />
       {/* <Route path="/material-ui" component={ MaterialUI } /> */}
       <Route path="/neu-pink-mode" component={NeuPinkMode}/>
-    {/* <Route path="/" component={Carousel}/> */}
+    <Route path="/" component={Carousel}/>
   </Switch>
 );
