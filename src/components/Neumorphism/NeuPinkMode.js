@@ -1,4 +1,5 @@
 import React from 'react';
+import './pink.css';
 
 const NeuPinkMode = () => {
 
@@ -6,12 +7,12 @@ const NeuPinkMode = () => {
     pinkMode: {
       width: '100px',
       height: '100px',
-      backgroundColor: '#FFF'
+      backgroundColor: 'pink'
     }
   }
   return (
     <div>
-      Hello from NeuPinkMode
+      <h1>Hello from Neu</h1>
     </div>
   );
 };
